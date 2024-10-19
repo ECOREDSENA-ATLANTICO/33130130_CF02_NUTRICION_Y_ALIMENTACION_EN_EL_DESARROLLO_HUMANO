@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Importancia de la nutrición durante la vida para evitar enfermedades',
+    descripcionCurso: 'El cuerpo humano necesita nutrientes como carbohidratos, vitaminas y minerales para funcionar adecuadamente. La falta o el exceso de estos nutrientes puede causar desbalances nutricionales y enfermedades. Este material examina las principales enfermedades alimenticias y ofrece recomendaciones para prevenirlas mediante una dieta equilibrada y actividad física. Se destaca cómo la nutrición influye en el crecimiento, el rendimiento y la salud en general, y se resalta el creciente interés por una alimentación saludable.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
