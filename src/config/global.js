@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'Importancia de la nutrición durante la vida para evitar enfermedades',
-    descripcionCurso: 'El cuerpo humano necesita nutrientes como carbohidratos, vitaminas y minerales para funcionar adecuadamente. La falta o el exceso de estos nutrientes puede causar desbalances nutricionales y enfermedades. Este material examina las principales enfermedades alimenticias y ofrece recomendaciones para prevenirlas mediante una dieta equilibrada y actividad física. Se destaca cómo la nutrición influye en el crecimiento, el rendimiento y la salud en general, y se resalta el creciente interés por una alimentación saludable.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo:
+      'Importancia de la nutrición durante la vida para evitar enfermedades',
+    descripcionCurso:
+      'El cuerpo humano necesita nutrientes como carbohidratos, vitaminas y minerales para funcionar adecuadamente. La falta o el exceso de estos nutrientes puede causar desbalances nutricionales y enfermedades. Este material examina las principales enfermedades alimenticias y ofrece recomendaciones para prevenirlas mediante una dieta equilibrada y actividad física. Se destaca cómo la nutrición influye en el crecimiento, el rendimiento y la salud en general, y se resalta el creciente interés por una alimentación saludable.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,27 +33,27 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Enfermedades causadas por la inadecuada alimentación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          '2.	Aspectos fundamentales para evitar enfermedades por malnutrición',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Importancia de la nutrición durante la vida',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'La alimentación en cada etapa de la vida',
         desarrolloContenidos: true,
       },
     ],
