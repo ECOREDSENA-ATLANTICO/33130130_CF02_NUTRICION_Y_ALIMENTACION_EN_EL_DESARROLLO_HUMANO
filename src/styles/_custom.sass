@@ -47,7 +47,27 @@
 
 .banner-principal__row .banner-principal__img 
     padding-right: 1.5rem !important
-
+.img-11
+  width: 11px
+.img-298
+  width: 241px
+  height: 298px
+  margin: auto
+.fnd-
+  padding: 2rem
+  &-1
+    background-color: #DED6FD !important   
+    border-radius: 1.5rem 0 0 1.5rem 
+  &-2    
+    background-color: #F6F4FE !important  
+    border-radius: 0 1.5rem 1.5rem 0 
+  @media (max-width: $bp-max-md)
+    &-1
+      border-radius: 1.5rem
+      margin-bottom: 3rem
+    &-2    
+      border-radius: 1.5rem 
+      margin-bottom: 3rem
 .fnd-2
   background-color: #D8F263 !important  
   padding-left: 1rem
@@ -77,10 +97,45 @@
     color: white
     background-color: #426E42
     padding: 0.3rem 1rem 0.3rem 1rem
-    margin-bottom: 0    
+    margin-bottom: 0   
+.fnd-5
+  background-color: #E6F8E6
+  padding: 2rem     
+.fnd-6
+  background-color: #EEEAFE !important 
+  @media (max-width: 768px) 
+    figure
+      margin-bottom: 1rem
+.fnd-7
+  background-color: #F2FBF2 !important  
+.fnd-8   
+  background: url('../assets/curso/temas/tema1/fnd-2.svg') no-repeat left top
+  background-size: cover
+
+  border-radius: 20px 
+  &-1
+    background-color: #ffffff
+    border-radius: 20px 
+  &-2
+    background: url('../assets/curso/temas/tema1/fnd-3.svg') no-repeat left top    
+    background-size: cover
+.fnd-9
+  background-color: #CEF1CE
+.fnd-10  
+  background-color: #FEF3EA !important
+.fnd-11
+  background-color: #FCC59A !important  
+  &::before
+    background-color: #DED6FD !important
+.fnd-12    
+  background-color: #EEEAFE !important
 .img-tar
   max-height: 80px
 .tbl    
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%  
   td
     border: 2px solid #FCC59A !important
     text-align: center    
@@ -90,25 +145,110 @@
       background-color: #FEF8F4
       font-weight: bold
 .tbl1
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%
+    border-bottom: 2px solid #567D56 
+  td
+    background-color: #fff
   th:nth-child(2) 
     background-color: #E6F8E6
-    border: 2px solid #567D56
+    border: 2px solid #567D56 
+    text-align: center
   th:nth-child(3) 
     background-color: #EEEAFE 
     border: 2px solid #567D56   
+    text-align: center
   td:nth-child(1) 
     border-left: 2px solid #567D56 
-    border-bottom-color: 2px solid #567D56 
-    border-top: 2px solid #567D56 
-    background-color: #ffffff
+    border-right: 2px solid #567D56 
+    background-color: #ffffff !important
   td:nth-child(2) 
-    border: 2px solid #567D56 
+    border-left: 2px solid #567D56 
+    border-right: 2px solid #567D56 
+    text-align: center
   td:nth-child(3) 
-    background-color: #EEEAFE
+    border-left: 2px solid #567D56 
+    border-right: 2px solid #567D56 
+    text-align: center
   td:nth-child(4) 
     background-color: #DED6FD
   td:nth-child(5) 
     background-color: #CEF1CE
+  tr:nth-child(1) 
+    td
+      border-top: 2px solid #567D56
+.tbl2
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%
+  td
+    background-color: #fff
+    padding: 1rem
+    border: 2px solid #567D56 
+  td:nth-child(1) 
+    width: 25%
+  td:nth-child(2) 
+    width: 22%
+  td:nth-child(3) 
+    width: 22% !important
+  td:nth-child(4) 
+    width: 22% !important
+.tbl3
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%
+    text-align: center
+    border: 2px solid #567D56 
+  th    
+    border: 2px solid #567D56 
+    font-weight: bold   
+  th:nth-child(2) 
+    background-color: #E6F8E6
+  th:nth-child(3) 
+    background-color: #EEEAFE 
+    border: 2px solid #567D56   
+  td
+    background-color: #fff
+    padding: 1rem
+    
+  td:nth-child(1) 
+    border-right: 2px solid #567D56   
+    border-left: 2px solid #567D56   
+  td:nth-child(2) 
+    border-right: 2px solid #567D56   
+    border-left: 2px solid #567D56   
+  td:nth-child(3) 
+    border-right: 2px solid #567D56   
+    border-left: 2px solid #567D56   
+.tbl4
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%
+    text-align: center
+    border: 2px solid #567D56 
+  th    
+    border: 2px solid #567D56 
+    font-weight: bold   
+  th:nth-child(1) 
+    background-color: #E6F8E6
+  th:nth-child(2) 
+    background-color: #EEEAFE 
+    border: 2px solid #567D56   
+  td
+    background-color: #fff
+    padding: 1rem  
+  td:nth-child(1) 
+    border-right: 2px solid #567D56   
+    border-left: 2px solid #567D56   
+  td:nth-child(2) 
+    border-right: 2px solid #567D56   
+    border-left: 2px solid #567D56   
+  
 $crd-icon-size: 85px
 $crd-padding: 1.5rem
 $crd-width: calc(100% - ((#{$crd-icon-size} / 2))) 
@@ -125,6 +265,10 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
 
   @media (min-width:1200px) and (max-width:1400px)  
     height: 250px 
+  &-1
+    padding: 0.5rem 1.5rem 0.5rem 0   
+    &::before      
+      background-color: #FEF3EA !important 
   &::before
     content: ""
     position: absolute
@@ -145,3 +289,104 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
   &__txt
     flex: 1 
     order: 2          
+.nutrition-box.nn
+  background: url('../assets/curso/temas/tema1/fnd-4.svg') no-repeat left bottom !important
+  background-size: cover !important
+  margin-top: 2rem !important
+  .pepper
+    top: initial !important
+    bottom: 0px
+    transform: translateY(0%)
+    width: 260px
+    
+  .cont
+    margin-left: 3%
+    margin-right: 25% !important
+
+  @media (min-width: 1200px)  
+    .cont
+      margin-right: 25% !important
+  @media (min-width: 768px) and (max-width: 1200px)   
+    .cont
+      margin-right: 35% !important
+  @media (max-width: 576px) 
+    .cont    
+      margin-right: 0px !important
+    .pepper
+      display: none !important   
+
+.nutrition-box.nn1
+  background: url('../assets/curso/temas/tema3/fnd-1.svg') no-repeat left bottom !important
+  background-size: cover !important
+  margin-top: 2rem !important
+  .pepper
+    top: initial !important
+    bottom: 0px
+    transform: translateY(0%)
+    width: 260px
+    
+  .cont
+    margin-left: 3%
+    margin-right: 25% !important
+
+  @media (min-width: 1200px)  
+    .cont
+      margin-right: 38% !important
+  @media (min-width: 768px) and (max-width: 1200px)   
+    .cont
+      margin-right: 46% !important
+  @media (max-width: 576px) 
+    .cont    
+      margin-right: 0px !important
+    .pepper
+      display: none !important   
+
+.nutrition-box 
+  position: relative
+  background: url('../assets/curso/temas/tema1/fnd-1.svg') no-repeat left top
+  background-size: cover
+  padding: 20px
+  border-radius: 20px 0 20px 0
+  .cont
+    position: relative
+    z-index: 1
+    margin-right: 43%
+
+  .cont
+    margin-right: 43% !important
+  .pepper
+    position: absolute
+    right: 20px
+    width: 300px
+    z-index: 2
+    display: initial !important
+    transform: translateY(-50%)
+    top: 50%
+
+  @media (min-width: 1200px)  
+    .cont
+      margin-right: 35% !important
+  @media (min-width: 768px) and (max-width: 1200px)   
+    .cont
+      margin-right: 50% !important
+  @media (max-width: 576px) 
+    .cont    
+      margin-right: 0px !important
+    .pepper
+      display: none !important     
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-color: #87DE87  
+.slyder-a__bullets__item 
+    background-color: #E2DCFE
+.slyder-a__bullets__item--active 
+    background-color: #AC9AFC 
+    border-color: #AC9AFC  
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    background-image: url(../assets/curso/temas/tema1/arrow.svg)      
+.tabs-a__tab__selected
+  background-color: #AC9AFC !important
+  color: #fff !important
+  &:before 
+    background-color: #AC9AFC
+.tabs-a__tab
+    background-color: #87DE87
