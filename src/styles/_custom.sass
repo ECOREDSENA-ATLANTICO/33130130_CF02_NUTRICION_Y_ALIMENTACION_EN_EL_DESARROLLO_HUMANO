@@ -61,13 +61,17 @@
   &-2    
     background-color: #F6F4FE !important  
     border-radius: 0 1.5rem 1.5rem 0 
+  &-3
+    background-color: #CEF1CE !important   
+    border-radius: 1.5rem 0 0 1.5rem 
+  &-4    
+    background-color: #F2FBF2 !important  
+    border-radius: 0 1.5rem 1.5rem 0     
   @media (max-width: $bp-max-md)
-    &-1
+    &-1, &-2, &-3, &-4 
       border-radius: 1.5rem
       margin-bottom: 3rem
-    &-2    
-      border-radius: 1.5rem 
-      margin-bottom: 3rem
+
 .fnd-2
   background-color: #D8F263 !important  
   padding-left: 1rem
@@ -98,9 +102,28 @@
     background-color: #426E42
     padding: 0.3rem 1rem 0.3rem 1rem
     margin-bottom: 0   
+  h1
+    color: red 
+    //#CEF1CE
+    font-size: 100px !important
+    margin-bottom: 0
+    line-height: 0.8
+    text-align: left !important
+.fnd-4-    
+  background-color: #F2FBF2
+  border-radius: 10px
+  display: flex
+  flex-wrap: wrap
+  h1
+    color: #CEF1CE
+    font-size: 100px !important
+    margin-bottom: 0
+    line-height: 0.9
+    text-align: left !important
 .fnd-5
   background-color: #E6F8E6
   padding: 2rem     
+
 .fnd-6
   background-color: #EEEAFE !important 
   @media (max-width: 768px) 
@@ -129,8 +152,28 @@
     background-color: #DED6FD !important
 .fnd-12    
   background-color: #EEEAFE !important
+.fnd-44     
+  background-color: #E6F8E6
+  border-radius: 10px
+  align-content: center
+  figure
+    img
+      margin-left: 0
+  p 
+    text-align: left
+  p::first-letter 
+    text-transform: uppercase
+  h5 
+    color: white
+    background-color: #426E42
+    padding: 0.3rem 1rem 0.3rem 1rem
+    margin-bottom: 0   
+    display: inline-block
+
 .img-tar
   max-height: 80px
+.img-tar1
+  max-width: 98px  
 .tbl    
   table
     overflow-x: auto
@@ -248,7 +291,85 @@
   td:nth-child(2) 
     border-right: 2px solid #567D56   
     border-left: 2px solid #567D56   
+.tbl5    
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%  
+  td
+    border: 2px solid #FCC59A !important
+    text-align: center    
+    background-color: #ffffff 
+  thead 
+    td
+      font-weight: bold  
+  .tt
+    background-color: #FDE7D6 
+.tbl5-
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%  
+  td
+    border: 2px solid #FCC59A !important
+    text-align: center    
+    background-color: #ffffff 
+  thead 
+    th
+      border: 2px solid #FCC59A !important
+      text-align: center    
+      font-weight: bold  
+      background-color: #FDE7D6     
+.tbl6   
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%  
+    border: 2px solid #567D56   
+  td
+    background-color: #ffffff 
+    border-right: 2px solid #567D56  
+    padding: 1rem 2rem 
+  thead 
+    th
+      font-weight: bold  
+      background-color: #E6F8E6
+      border: 2px solid #567D56 
+      padding: 1rem 2rem   
+.tbl7
+  table
+    overflow-x: auto
+    min-width: 560px 
+    width: 100%  
+
+  tbody
+    td
+      background-color: #ffffff 
+      padding: 1rem 2rem 
+      text-align: center
+      border: 2px solid #567D56   
+  td[colspan="5"]
+    border: 2px solid #567D56    
+    text-align: left
+  thead 
+    th
+      font-weight: bold  
+      padding: 1rem 2rem         
+      text-align: center
+  td:nth-child(2), td:nth-child(3) 
+    background-color: #F6F4FE !important    
+  td:nth-child(4), td:nth-child(5) 
+    background-color: #FEF3EA !important
+  th:nth-child(2)
+    background-color: #F6F4FE !important
+    border: 2px solid #567D56  !important   
+  th:nth-child(3) 
+    background-color: #FEF3EA !important   
+    border: 2px solid #567D56  !important   
   
+.ttn
+  border-top: 0px solid #567D56  !important
+  border-left: 0px solid #567D56 !important
 $crd-icon-size: 85px
 $crd-padding: 1.5rem
 $crd-width: calc(100% - ((#{$crd-icon-size} / 2))) 
@@ -269,6 +390,10 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
     padding: 0.5rem 1.5rem 0.5rem 0   
     &::before      
       background-color: #FEF3EA !important 
+  &-2
+    padding: 0.5rem 1.5rem 0.5rem 0   
+    &::before      
+      background-color: #F2FBF2 !important       
   &::before
     content: ""
     position: absolute
@@ -314,9 +439,10 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
       margin-right: 0px !important
     .pepper
       display: none !important   
-
+.bck-1
+  background: url('../assets/curso/temas/tema4/fnd-1.svg') no-repeat left bottom !important
 .nutrition-box.nn1
-  background: url('../assets/curso/temas/tema3/fnd-1.svg') no-repeat left bottom !important
+  background: url('../assets/curso/temas/tema3/fnd-1.svg') no-repeat left bottom 
   background-size: cover !important
   margin-top: 2rem !important
   .pepper
@@ -390,3 +516,37 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
     background-color: #AC9AFC
 .tabs-a__tab
     background-color: #87DE87
+.lista-ol--cuadro__vineta
+   background-color: #87DE87 !important  
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #DED6FD
+  .crd_hover_txt--img
+    height: 400px 
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #AC9AFC
+    h5
+      text-align: center
+    @media (max-width: 576px) 
+      padding: 1rem
+      .mtt
+        margin-top: 0.5rem
+  @media (min-width:1200px) 
+    .crd_hover_txt--body
+       padding: 1rem 1.5rem !important
+    .mtt
+      margin-top: 0.5rem
+  
+  

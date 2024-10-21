@@ -21,13 +21,13 @@ export default {
         'Importancia de la nutrición durante la vida para evitar enfermedades.',
       introduccion:
         'Preguntas de opción múltiple: lea los siguientes enunciados y seleccione la respuesta que considere correcta.',
-      barajarPreguntas: true,
+      barajarPreguntas: false,
       preguntas: [
         {
           id: 1,
           texto:
             '¿Cuál de las siguientes enfermedades es comúnmente causada por la inadecuada alimentación?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Artritis.', esCorrecta: false },
@@ -42,17 +42,27 @@ export default {
           id: 2,
           texto:
             '¿Qué aspecto es fundamental para evitar enfermedades por malnutrición?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Evitar las grasas a toda costa',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Seguir una dieta equilibrada',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Saltar comidas',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Consumir solo alimentos procesados',
               esCorrecta: false,
             },
           ],
@@ -62,7 +72,7 @@ export default {
         {
           id: 3,
           texto: '¿Por qué es crucial la nutrición durante la infancia?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -93,7 +103,7 @@ export default {
           id: 4,
           texto:
             '¿Cuál es un beneficio de una buena alimentación en la adultez',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -115,7 +125,7 @@ export default {
         {
           id: 5,
           texto: '¿Qué factor afecta las necesidades nutricionales en la vejez',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-5.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -138,7 +148,7 @@ export default {
           id: 6,
           texto:
             '¿Qué tipo de alimentos son esenciales para prevenir la desnutrición?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -161,7 +171,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál de los siguientes es un signo de mala nutrición en niños?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Participación en deportes', esCorrecta: false },
@@ -175,7 +185,7 @@ export default {
         {
           id: 8,
           texto: '¿Qué se recomienda para mejorar la salud en adolescentes?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -201,7 +211,7 @@ export default {
         {
           id: 9,
           texto: '¿Cómo influyen los factores ambientales en la nutrición?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'No tienen impacto', esCorrecta: false },
@@ -227,7 +237,7 @@ export default {
         {
           id: 10,
           texto: '¿Qué es un aspecto clave de la educación nutricional?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          imagen: require('@/assets/actividad/img-5.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Promover dietas extremas', esCorrecta: false },

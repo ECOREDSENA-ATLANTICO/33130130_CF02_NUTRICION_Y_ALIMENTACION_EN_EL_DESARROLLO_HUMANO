@@ -41,7 +41,7 @@ export default {
         nombreRuta: 'tema2',
         numero: '2',
         titulo:
-          '2.	Aspectos fundamentales para evitar enfermedades por malnutrición',
+          'Aspectos fundamentales para evitar enfermedades por malnutrición',
         desarrolloContenidos: true,
       },
       {
@@ -320,19 +320,22 @@ export default {
         'Vasquez, C. c. (2005). Alimentación y Nutrición: Manual teórico Práctico. Madrid, España: Ediciones Diaz de Santos SA',
     },
   ],
+
   creditos: [
     {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Miguel de Jesús Paredes Maestre',
+          cargo: 'Responsable de línea de producción',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
         },
       ],
     },
@@ -340,34 +343,42 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Diana cristina muñoz urrea',
+          nombre: 'Diana Cristina Muñoz Urrea',
           cargo: 'Experta temática',
-          centro: 'Regional QuindíoCentro Agroindustrial',
+          centro: 'Centro Agroindustrial - Regional Quindío',
         },
+        {
+          nombre: 'Yuri Alexandra Baez',
+          cargo: 'Asesora pedagógica',
+          centro: 'Centro Agroindustrial - Regional Quindío',
+        },
+        {
+          nombre: 'Fabian Cuartas Donado',
+          cargo: 'Evaluador instruccional',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
+        },
+
         {
           nombre: 'Luis Guillermo Roberto baez',
           cargo: 'Diseñadores gráficos',
-          centro: 'Regional Quindío Centro Agroindustrial',
+          centro: 'Centro Agroindustrial - Regional Quindío',
         },
         {
           nombre: 'Zulma rocio bravo Jiménez',
           cargo: 'Diseñadores gráficos',
-          centro: 'Regional Quindío Centro Agroindustrial',
+          centro: 'Centro Agroindustrial - Regional Quindío',
         },
-        {
-          nombre: 'Yuri Alexandra baez',
-          cargo: 'Asesora pedagógica',
-          centro: 'Regional Quindío Centro Agroindustrial',
-        },
+
         {
           nombre: 'Hector salina castellanos',
           cargo: 'Guionista del equipo',
-          centro: 'Regional Quindío Centro Agroindustrial.',
+          centro: 'Centro Agroindustrial - Regional Quindío.',
         },
         {
           nombre: 'Zulma Yurany viancha rodriguez',
           cargo: 'Líder del del Equipo ',
-          centro: 'Regional Quindío Centro Agroindustrial.',
+          centro: 'Centro Agroindustrial - Regional Quindío.',
         },
       ],
     },
@@ -375,24 +386,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Hernando Junior Strusberg Perez',
+          cargo: 'Diseño web',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Jorge Leonardo Camacho Pardo',
+          cargo: 'Desarrollor <em> full stack</em>',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Alexander Rafael Acosta Bedoya',
+          cargo: 'Animador y productor audiovisual',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
@@ -400,24 +409,29 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
         {
-          nombre: 'Margarita Marcela Medrano',
+          nombre: 'Luz Karime Amaya',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+        {
+          nombre: 'Juan Carlos Cardona Acosta',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
+        },
+
+        {
+          nombre: 'Jairo Luis Valencia Ebratt',
+          cargo: 'Validador y vinculador de recursos digitales ',
+          centro:
+            'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga -  Regional Atlántico',
         },
       ],
     },
