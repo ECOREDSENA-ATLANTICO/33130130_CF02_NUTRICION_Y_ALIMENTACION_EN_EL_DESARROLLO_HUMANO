@@ -7,7 +7,7 @@
         span 2
       h1 Aspectos fundamentales para evitar enfermedades por malnutrición
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-xl-5.col-md-6.mb-md-5.col-lg-8
+      .col-xl-5.col-md-6.mb-4.col-lg-8
         figure
           img(src='@/assets/curso/temas/tema2/img-1.png')           
           
@@ -24,8 +24,12 @@
       .col-auto.pe-2
         figure
           img(src='@/assets/curso/temas/tema2/img-4.svg')
-      .col-auto.px-0
+      .col.px-0
         h3.mb-0 Alimentación balanceada rica en antioxidantes
+
+
+
+
 
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-12.mb-4
@@ -59,7 +63,7 @@
       .col-auto.pe-2
         figure
           img(src='@/assets/curso/temas/tema2/img-4.svg')
-      .col-auto.px-0
+      .col.px-0
         h3.mb-0 Determinar las necesidades Nutritivas
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-12.mb-4

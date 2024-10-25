@@ -26,7 +26,7 @@
             p Parte de esta etapa es la lactancia, el cual es el proceso mediante el cual se produce una secreción nutritiva (leche) adaptada al crecimiento y desarrollo del recién nacido. Contiene todos los nutrientes indispensables para satisfacer las necesidades del recién nacido durante los primeros meses de vida.
           .col-lg-6.fnd-7-1
             .row.justify-content-center.align-items-center
-              .col-xl-7.col-md-8
+              .col-xl-7.col-md-8.mb-4
                 h5 Composición de la leche materna 
                 p Producción:
                 .row.pe-lg-3.justify-content-center
@@ -51,7 +51,7 @@
                     p.mb-0 510Kcal/día
               .col-xl-5.col-md-4.col-lg-4
                 figure
-                  img(src="@/assets/curso/temas/tema4/img-2.svg")
+                  img.img-s(src="@/assets/curso/temas/tema4/img-2.svg")
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -658,7 +658,7 @@
       .col-auto.pe-2
         figure
           img(src='@/assets/curso/temas/tema2/img-4.svg')
-      .col-auto.px-0
+      .col.px-0.mt-3
         h3.mb-3 Alimentación en la vejez (60 años en adelante)
     p Cuando se envejece hay una serie de transformaciones físicas, metabólicas, mentales y funcionales, las cuales influyen en el comportamiento y la disminución de la capacidad de adaptación a los cambios del entorno, lo que genera un aumento de la vulnerabilidad y de la fragilidad. Este proceso es continuo e inevitable.
 
@@ -693,7 +693,7 @@
     .row.justify-content-center.align-items-center.mb-5.fnd-8-2.p-lg-5.p-md-3(data-aos="fade-right")
         .col-lg-12.fnd-8-1.p-lg-5.p-md-3
           SlyderA(tipo="b")
-            .row.justify-content-center.align-items-center.px-1
+            .row.justify-content-center.align-items-center.px-3
               .col-lg-6.mb-4.mb-md-5
                 h5 Cambios en la composición del metabolismo	
                 .row.pe-lg-3.justify-content-center
@@ -720,7 +720,7 @@
               .col-lg-6.col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema4/img-22.png') 
-            .row.justify-content-center.align-items-center.px-1
+            .row.justify-content-center.align-items-center.px-3
               .col-lg-6.mb-4.mb-md-5
                 h5 Cambios en el aparato digestivo.	
                 .row.pe-lg-3.justify-content-center
@@ -739,7 +739,7 @@
               .col-lg-6.col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema4/img-23.png') 
-            .row.justify-content-center.align-items-center.px-1
+            .row.justify-content-center.align-items-center.px-3
               .col-lg-6.mb-4.mb-md-5
                 h5 Cambios sensoriales.	
                 .row.pe-lg-3.justify-content-center
@@ -766,7 +766,7 @@
               .col-lg-6.col-md-6
                 figure
                   img(src='@/assets/curso/temas/tema4/img-24.png') 
-            .row.justify-content-center.align-items-center.px-1
+            .row.justify-content-center.align-items-center.px-3
               .col-lg-6.mb-4.mb-md-5
                 h5 Cambios psicosociales.	
                 .row.pe-lg-3.justify-content-center
