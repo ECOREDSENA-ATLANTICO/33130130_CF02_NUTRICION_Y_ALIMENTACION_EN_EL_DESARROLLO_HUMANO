@@ -65,8 +65,8 @@
     
 
     .bloque-texto-a.color-secundario.botones.p-4.p-md-5.mb-5.fnd-11
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-8
+      .row.m-0.align-items-center.justify-content-center
+        .col-lg-8.mb-lg-0.mb-md-4
           .bloque-texto-a__texto.p-4
             .row.pe-lg-3.justify-content-center
               .col-auto.pe-2.mt-2
@@ -93,7 +93,7 @@
                 img(src="@/assets/curso/temas/tema1/check.svg")
               .col.px-0
                 p.mb-0 Controlar el consumo de sal en 3 gr/ día para evitar el exceso de sodio en el cuerpo.
-        .col-lg-4.mb-4.mb-lg-0
+        .col-lg-4.mb-4.mb-lg-0.col-md-6
           figure
             img(src='@/assets/curso/temas/tema3/img-3.png')    
 
@@ -104,7 +104,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6
             .cajon.color-secundario.p-4.fnd-7.mb-4
-              p Para planear una dieta equilibrada se necesita determinar los alimentos en cantidades adecuadas de acuerdo con las necesidades, los cuales están asociados al peso del individuo, la edad y actividadque desarrolle. Se estudiarán cuáles son las necesidades diarias teniendo en cuenta que:
+              p.mb-0 Para planear una dieta equilibrada se necesita determinar los alimentos en cantidades adecuadas de acuerdo con las necesidades, los cuales están asociados al peso del individuo, la edad y actividadque desarrolle. Se estudiarán cuáles son las necesidades diarias teniendo en cuenta que:
 
           .col-lg-6
             .row.pe-lg-3.justify-content-center
@@ -137,25 +137,25 @@
         .col-lg-12.fnd-8-1.p-lg-5.p-md-3
           SlyderA(tipo="b")
             .row.justify-content-center.align-items-center.px-1
-              .col-lg-6.mb-4.mb-md-5
+              .col-xl-6.mb-4.mb-md-5
                 h5 Variedad	
                 p.mb-0 La pirámide de la alimentación es una figura geométrica que orienta a las personas sobre una alimentación equilibrada. En esta pirámide están expuestos los principales alimentos que deben consumirse diariamente. La pirámide de alimentos recalca algunos conceptos de suma importancia:Variedad: Uno de los inconvenientes más usuales en la alimentación es la monotonía porque siempre se come lo mismo, por eso la variedad es un factor importante del equilibrio nutricional. Hay que tener claro que ningún alimento aporta todos los nutrientes en las cantidades necesarias, por lo cual la dietadiaria debe contener los principales grupos de alimentos, hay que tener claro que ningún grupo de nutrientes es más importante que otro.
-              .col-lg-6.col-md-6
+              .col-xl-6.col-md-10
                 figure
                   img(src='@/assets/curso/temas/tema3/img-4.png') 
             .row.justify-content-center.align-items-center
-              .col-lg-4.mb-4.mb-md-5
+              .col-xl-4.mb-4.mb-md-5
                 h5 Proporcionalidad.	
                 p Es aconsejable consumir la mayor cantidad de los alimentos que se hallan en la base de la pirámide y menor proporción de los que se encuentran en la parte superior. Los alimentos que se comen deben ser en las cantidades adecuadas y suficientes, pero evitando el exceso.
-              .col-lg-8
+              .col-xl-8
                 figure
                   img(src='@/assets/curso/temas/tema3/img-5.png')
 
             .row.justify-content-center.align-items-center
-              .col-lg-4
+              .col-xl-4
                 h5 Moderación	
                 p se recomienda consumir alimentos en porciones moderadas en número y tamaño, según las necesidades de energía de cada persona en particular. Seguir las pautas dadas ayuda a prevenir algunas enfermedades como la obesidad.
-              .col-lg-8
+              .col-xl-8
                 figure
                   img(src='@/assets/curso/temas/tema3/img-6.png')
  
@@ -163,10 +163,10 @@
     TabsA.color-secundarios.mb-5
       .tarjeta.color-primario.p-4.fnd-6(titulo="Primer nivel")
         .row
-          .col-lg-6
+          .col-xl-6
             h4 Primer nivel
             p Los alimentos que se encuentran allí son de tipo energético tales como: cereales, arroz, pan, pasta y papas, los cuales aportan calorías al organismo;se recomienda consumir de cuatro a seis raciones al día.
-          .col-lg-6.mb-4
+          .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img-8.png')            
              

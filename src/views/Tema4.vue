@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 En esta actividad de aprendizaje se describe la importancia de una dieta equilibrada y las necesidades nutricionales en las diferentes etapas de la vida. Además, se muestra la pirámide de los alimentos que es la base nutricional del ser humano. El material de estudio permite comprender los aspectos relacionados con la actividad de aprendizaje a desarrollar, esto con el fin de que el aprendiz pueda realizar las actividades de la mejor manera.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10        
+      .col-xl-10        
         .row.justify-content-center.align-items-center                  
           .col-lg-6
             .row.mb-4.pe-lg-3.align-items-center(data-aos="fade-left")
@@ -24,9 +24,9 @@
               .col-auto.px-0
                 h3.mb-0 La infancia (0-2 años)
             p Parte de esta etapa es la lactancia, el cual es el proceso mediante el cual se produce una secreción nutritiva (leche) adaptada al crecimiento y desarrollo del recién nacido. Contiene todos los nutrientes indispensables para satisfacer las necesidades del recién nacido durante los primeros meses de vida.
-          .col-lg-6
+          .col-lg-6.fnd-7-1
             .row.justify-content-center.align-items-center
-              .col-lg-6
+              .col-xl-7.col-md-8
                 h5 Composición de la leche materna 
                 p Producción:
                 .row.pe-lg-3.justify-content-center
@@ -49,13 +49,13 @@
                     img(src="@/assets/curso/temas/tema1/check.svg")
                   .col.px-0
                     p.mb-0 510Kcal/día
-              .col-lg-6.col-md-6
+              .col-xl-5.col-md-4.col-lg-4
                 figure
                   img(src="@/assets/curso/temas/tema4/img-2.svg")
 
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-10
+      .col-xl-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 4.
           span Composición de la leche materna
@@ -64,7 +64,7 @@
         figcaption Nota. SENA
 
     .row.justify-content-center.align-items-center.mb-5
-        .col-lg-10
+        .col-xl-10
           .titulo-sexto.color-acento-contenido
             h5 Tabla 6. 
             span Composición de la leche materna        
@@ -77,7 +77,7 @@
               tbody
                 tr
                   td.tt(colspan="5") Macronutrientes (% de energías)
-                tr
+                tr.ttt
                   td Leche
                   td Kcal/10ml
                   td Grasa
@@ -99,18 +99,18 @@
     .row.justify-content-center.d-flex.mb-5
       .col-lg-6.fnd--1.fnd-
         .row.justify-content-center.align-items-center
-          .col-lg-6
+          .col-xl-6
             p <b>Ingestas recomendadas en la mujer lactante energía:</b> Costo energético: 85 Kcal por cada 100 ml.
             p <b>Proteínas:</b> ingesta extra recomendada.
             p <b>Vitaminas y minerales:</b> se recomienda aumentar cantidades de todas las vitaminas menos (K) y minerales Ca, Fe y I.
             p <b>Ejemplo:</b> Se debe suministrar más de 700 mg/día de calcio.
 
-          .col-lg-6.col-md-6
+          .col-xl-6.col-md-6
             figure
               img(src='@/assets/curso/temas/tema4/img-4.png')
       .col-lg-6.fnd--2.fnd-
         .row.justify-content-center.align-items-center
-          .col-lg-6
+          .col-xl-6
             p.mb-3 <b>Recomendaciones generales de tipo alimentario.</b> Seguir una dieta variada y equilibrada incluyendo alimentos de todos los grupos, especialmente:
             p.mb-0 Lácteos.
             p.mb-0 Alimentos proteicos.
@@ -118,7 +118,7 @@
             p.mb-3 Asegurar un buen aporte hídrico.
             p Restringir la ingestión de alcohol y evitar el consumo de bebidas estimulantes (café, té, refrescos con cafeína, etc).
             
-          .col-lg-6.col-md-6
+          .col-xl-6.col-md-6
             figure
               img(src='@/assets/curso/temas/tema4/img-5.png')
 
@@ -133,32 +133,43 @@
     .row.justify-content-center.d-flex.mb-5
       .col-lg-6.fnd--3.fnd-
         .row.justify-content-center.d-flex
-          .col-lg-6
+          .col-xl-6
             p.mb-0 <b>Desarrollo físico</b>  
             p Los niños continúan ganando peso y altura, pero más lentamente de lo que lo hicieron durante los primeros dos años de vida. El desarrollo del cerebro también está en marcha; en el momento enque un niño llega a la edad de tres años, el cerebro habrá alcanzado aproximadamente el 75% del peso que tendrá en la edad adulta. En este período realizan actividades como saltar y andar en puntillas, además se presenta un desarrollo cognitivo y social.
 
-          .col-lg-6
+          .col-xl-6
             figure
               img.img-298(src='@/assets/curso/temas/tema4/img-6.png')
       .col-lg-6.fnd--4.fnd-
         .row.justify-content-center.d-flex
-          .col-lg-6
+          .col-xl-6
             p.mb-0 <b>Crecimiento:</b> talla y peso.
-            p.mb-3 En el desarrollo físico de los infantes se dan modificaciones en forma y composición corporales que varían de acuerdo con el crecimiento y el sexo de cada individuo.
-            p.mb-0 <b>Peso:</b> 2,5 a 3,5 kg/año.
-            p.mb-0 <b>Talla:</b> 5 a 6 cm/año.
-            p.mb-0 <b>Dentición:</b> Entre los 6 y 12 años
-            p.mb-3 aparecen los dientes permanentes.
+            p.mb-4 En el desarrollo físico de los infantes se dan modificaciones en forma y composición corporales que varían de acuerdo con el crecimiento y el sexo de cada individuo.
+            .row.pe-lg-3.justify-content-center
+              .col-auto.pe-2.mt-2
+                img(src="@/assets/curso/temas/tema1/check.svg")
+              .col.px-0
+                p.mb-0 <b>Peso:</b> 2,5 a 3,5 kg/año.
+            .row.pe-lg-3.justify-content-center
+              .col-auto.pe-2.mt-2
+                img(src="@/assets/curso/temas/tema1/check.svg")
+              .col.px-0
+                p.mb-0 <b>Talla:</b> 5 a 6 cm/año.
+            .row.pe-lg-3.justify-content-center
+              .col-auto.pe-2.mt-2
+                img(src="@/assets/curso/temas/tema1/check.svg")
+              .col.px-0
+                p.mb-4 <b>Dentición:</b> Entre los 6 y 12 años aparecen los dientes permanentes.
             
-          .col-lg-6
+          .col-xl-6
             figure
               img.img-298(src='@/assets/curso/temas/tema4/img-7.png')
           
     .row.justify-content-center.align-items-center.mb-3.p-4(data-aos="zoom-in")
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-4.col-md-6.mb-4
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema4/img-8.png")
-      .col-lg-9
+      .col-lg-8
         SlyderF.custom(columnas="col-lg-6 col-md-6")
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             h5.mb-3 Energía
@@ -262,12 +273,12 @@
     p.mb-4 En los últimos años se ha observado en las poblaciones más jóvenes un consumo excesivo de dietas hipercalóricas, es decir, un alto consumo de glúcidos y grasas sumado al sedentarismo característico de las ciudades, lo cual puede generar problemas de sobrepeso y obesidad.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
-      .col-lg-10
-        .row.justify-content-center.align-items-center  
-          .col-lg-3.col-md-6.mb-md-5
-            figure
+      .col-xl-10
+        .row.justify-content-center.align-items-center
+          .col-lg-3.col-md-6
+            figure.mb-4
               img(src='@/assets/curso/temas/tema4/img-13.png')   
-          .col-lg-9.mb-md-5
+          .col-lg-9.mb-5
             .titulo-sexto.color-acento-contenido
               h5 Tabla 7. 
               span Cambios físicos y metabólicos en la adolescencia
@@ -304,7 +315,7 @@
                     td Metabolismo proteico
                     td Metabolismo lipídico
 
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Cambios psicológicos en la adolescencia
     .row.justify-content-center.align-items-center(data-aos="zoom-in")
@@ -346,8 +357,8 @@
           img(src='@/assets/curso/temas/tema4/img-14.png')
 
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
+    .row.justify-content-center.align-items-center
+      .col-xl-10
         .titulo-sexto.color-acento-contenido
           h5 Tabla 8. 
           span Necesidades de energía y nutrientes
@@ -384,13 +395,13 @@
               tr
                 td(colspan="5") <b>Carbohidratos:</b> 55 % a 66 %, preferiblemente hidratos de carbono complejos.
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10
-        .row.justify-content-center.align-items-center.mb-5
+      .col-xl-10
+        .row.justify-content-center.align-items-center
           .col-lg-8
             .titulo-sexto.color-acento-contenido
               h5 Tabla 9. 
               span Recomendaciones de alimentación saludable
-            .tabla-b.color-acento-contenido.tbl6
+            .tabla-b.color-acento-contenido.tbl6.mb-4
               table
                 caption Fuente: SENA
                 thead
@@ -422,14 +433,14 @@
                   tr
                     td
                     td
-          .col-lg-4.col-md-8
-            figure.mb-4
+          .col-lg-4.col-md-4
+            figure
               img(src='@/assets/curso/temas/tema4/img-15.png')
 
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Situaciones de riesgo nutricional
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.fnd-8-3
       .col-lg-3.col-md-6
         figure.mb-4
           img(src='@/assets/curso/temas/tema4/img-16.png')
@@ -476,7 +487,7 @@
       .col-md-8.col-lg-3
         figure
           img(src='@/assets/curso/temas/tema4/img-17.png')
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Alimentación - Ingestas recomendadas.
     .row.justify-content-center.align-items-center.mb-5
@@ -532,7 +543,7 @@
       .col-lg-12.fnd-8-1.p-lg-5.p-md-3
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center
-            .col-md-9.mb-4.mb-md-0
+            .col-xl-9.mb-4.px-4
               h5 Recomendaciones alimentarias.
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
@@ -550,32 +561,28 @@
                 .col.px-0
                   p.mb-0 Limitar el consumo de azúcares libres a menos del 10% de la ingesta calórica total (2, 5), que equivale a 50 gramos (o unas 12 cucharaditas rasas) en el caso de una persona con un peso saludable que consuma aproximadamente 2.000 calorías al día, si bien para obtener mayores beneficios, se recomienda idealmente reducir su consumo a menos del 5% de la ingesta calórica total cinco (5). Son los fabricantes, los cocineros o el propio consumidor quienes añaden a los alimentos la mayor parte de los azúcares libres. El azúcar libre también puede estar presente en el azúcar natural de la miel, los jarabes, y los zumos concentrados de frutas.
 
-            .col-md-3
+            .col-xl-3.col-md-4
               figure
                 img(src='@/assets/curso/temas/tema4/img-19.png')
 
           .row.justify-content-center.align-items-center
-            .col-md-9.mb-4.mb-md-0
+            .col-xl-9.mb-4.px-4
               h5 Recomendaciones alimentarias.
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
-                  p.mb-0 Disminuir el consumo de grasa (1, 2, 3) al 30% de la ingesta calórica diaria. Las grasas no saturadas (presentes, por ejemplo, en el aceite de pescado, los aguacates, los frutos secos, o el aceite de girasol, canola y oliva) son preferibles a las grasas saturadas (presentes, por ejemplo, en la carne grasa, la mantequilla, el aceite de palma y de coco, la nata, el queso, el ghee y la manteca de cerdo) (3). Las grasas industriales de tipo trans (presentes en los alimentos procesados, la comida rápida, los aperitivos, los alimentos fritos, las pizzas congeladas, los pasteles, las galletas, las margarinas y las pastas para untar) no forman parte de una dieta sana.
-                  .row.justify-content-center.align-items-center
-            
+                  p.mb-0 Disminuir el consumo de grasa (1, 2, 3) al 30% de la ingesta calórica diaria. Las grasas no saturadas (presentes, por ejemplo, en el aceite de pescado, los aguacates, los frutos secos, o el aceite de girasol, canola y oliva) son preferibles a las grasas saturadas (presentes, por ejemplo, en la carne grasa, la mantequilla, el aceite de palma y de coco, la nata, el queso, el ghee y la manteca de cerdo) (3). Las grasas industriales de tipo trans (presentes en los alimentos procesados, la comida rápida, los aperitivos, los alimentos fritos, las pizzas congeladas, los pasteles, las galletas, las margarinas y las pastas para untar) no forman parte de una dieta sana.            
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
                   p.mb-0 Reducir el consumo de sal a menos de 5 gramos al día (aproximadamente una cucharadita de café) (6) y consumir sal yodada.
-
-
-            .col-md-3
+            .col-xl-3.col-md-4
               figure
                 img(src='@/assets/curso/temas/tema4/img-20.png')
 
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Ejercicio físico genera beneficios sobre la salud.
 
@@ -776,7 +783,7 @@
       .col-lg-5.col-md-6.p-0        
         figure
           img(src='@/assets/curso/temas/tema4/img-26.png') 
-      .col-lg-7.col-md-6
+      .col-lg-7.col-md-11.py-4
         h5 Causas de la desnutrición en las personas de edad avanzada
         p Pluripatología, polifarmacia y cambios ligados al envejecimiento (biológicos y psicosociales) pueden influir negativamente sobre:
         .row.pe-lg-3.justify-content-center
@@ -837,7 +844,7 @@
 
 
 
-    .row.justify-content-center.align-items-center.mb-3.fnd-6.p-4.mb-5(data-aos="zoom-in")
+    .row.justify-content-center.align-items-center.mb-3.p-4.mb-5(data-aos="zoom-in")
       .col-lg-3.col-md-6.mb-4
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema4/img-27.png")
@@ -847,7 +854,7 @@
             figure.mb-4(data-aos="zoom-in")
               img.img-tar1(src="@/assets/curso/temas/tema4/img-28.svg")
             h5.mb-3 Energía.	
-            p.mb-0 Las necesidades energéticas disminuyen por lo que es importante mantener un peso ideal
+            p.mb-0 Las necesidades energéticas disminuyen por lo que es importante mantener un peso ideal.
           .tarjeta.tarjeta--slyder.p-4.fnd-44
             h5.mb-3 Proteínas.	
             p.mb-0 • Masa magra disminuida respecto al adulto joven.
@@ -894,7 +901,7 @@
             p.mb-0 • Reducción voluntaria de ingesta (incontinencia urinaria).
             p.mb-0 • Descenso del agua corporal total.
             p.mb-0 • Disminución de la capacidad de la concentración renal.
-            p.mb-0 • Uso crónico de laxantes y diuréticos
+            p.mb-0 • Uso crónico de laxantes y diuréticos.
 
 
     .row.justify-content-center(data-aos="fade-right")
@@ -904,7 +911,7 @@
             figure
               img(src="@/assets/curso/temas/tema4/img-35.png", alt="alt")
           .crd_hover_txt--body
-            h5.mb-3.mtt Concejos favorables en la ingesta de agua:
+            h5.mb-5 Concejos favorables en la ingesta de agua:
             p.mb-0 • Tomar un mínimo de 6 a 8 vasos de agua al día.
             p.mb-0 • Beber entre comidas y justo antes de comer.
             p.mb-0 • Estimular la ingesta de agua asociada a actividades placenteras.
@@ -916,7 +923,7 @@
             figure
               img(src="@/assets/curso/temas/tema4/img-37.png", alt="alt")
           .crd_hover_txt--body
-            h5.mb-3.mtt Importancia del ejercicio físico.
+            h5.mb-5 Importancia del ejercicio físico.
             p.mb-0 • Mantenimiento de la composición corporal o menor tendencia al cambio.
             p.mb-0 • Mejoramiento de la capacidad anabólica general y de las capacidades funcionales circulatorias y respiratorias.
             p.mb-0 • Mejoramiento de la función óseo-muscular.
@@ -927,8 +934,8 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema4/img-32.png", alt="alt")
-          .crd_hover_txt--body
-            h5.mb-3 Recomendaciones actividad física en personas mayores.
+          .crd_hover_txt--body.mtt
+            h5.mb-5 Recomendaciones actividad física en personas mayores.
             p.mb-0 • Ejercicio aeróbico (prevención y tratamiento de enfermedades crónicas): 30 minutos (diarios) en actividades como paseo a paso lento, natación, ejercicio en agua y bicicleta estática.
             p.mb-0 • Ejercicios para fortalecer los músculos, retrasan o impiden la sarcopenia e incrementan la densidad ósea: trabajo muscular con pesas y/o máquinas.
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-5
@@ -937,7 +944,7 @@
             figure
               img(src="@/assets/curso/temas/tema4/img-34.png", alt="alt")
           .crd_hover_txt--body
-            h5.mb-3.mtt Alimentación nutricional básica.
+            h5.mb-5.mtt Alimentación nutricional básica.
             p.mb-0 Pautas en la elaboración de la dieta:
             p.mb-0 • Fraccionar la dieta en 5 a 6 tomas diarias.
             p.mb-0 • La energía (volumen y densidad), se debe repetir las comidas que proporcionan este tipo de nutrientes.
@@ -952,7 +959,7 @@
             figure
               img(src="@/assets/curso/temas/tema4/img-33.png", alt="alt")
           .crd_hover_txt--body
-            h5.mb-3.mtt Alimentación básica adaptada.
+            h5.mb-5.mtt Alimentación básica adaptada.
             p.mb-0 Preparados nutricionales destinados a adaptar la alimentación oral a las necesidades de las personas con dificultades para alimentarse correctamente con una alimentación tradicional:
             p.mb-0 • Tiene el aspecto del plato hecho en casa.
             p.mb-0 • Fáciles de masticar y deglutir.

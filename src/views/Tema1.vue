@@ -48,14 +48,14 @@
           .col-auto.pe-2.mt-2
             img(src="@/assets/curso/temas/tema1/check.svg")
           .col.px-0
-            p.mb-0 El sobrepeso, la obesidad.
+            p.mb-4 El sobrepeso, la obesidad.
         P Las etapas en el desarrollo de la malnutrición, puede darse por dos situaciones principalmente:
         .row.pe-lg-3.justify-content-center
           .col-auto.pe-2.mt-2
             img(src="@/assets/curso/temas/tema1/check.svg")
           .col.px-0
             p.mb-0 Alimentación o ingesta escasa de alimentos.
-        .row.pe-lg-3.justify-content-center
+        .row.pe-lg-3.justify-content-center.mb-4
           .col-auto.pe-2.mt-2
             img(src="@/assets/curso/temas/tema1/check.svg")
           .col.px-0
@@ -84,7 +84,7 @@
 
     .row.justify-content-center.align-items-center                  
       .col-lg-9
-        .row.align-items-center
+        .row.align-items-center(data-aos="zoom-in")
           .col-auto.mb-3
             h3.mb-0.fnd-2-1.fnd-2 Cáncer
         p Es una enfermedad caracterizada por la presencia de células anormales en el cuerpo, las cuales crecen y se multiplican de manera descontrolada. Estas células son: llamadas cancerosas o malignas, puesto que invaden los tejidos del organismo dispersándose a través del sistema sanguíneo o linfático. 
@@ -145,15 +145,15 @@
 
 
           .row.justify-content-center.align-items-center.mb-5                  
-            .col-lg-3.col-md-6.mb-5
+            .col-xl-4.col-md-6.mb-5
               figure
                 img(src='@/assets/curso/temas/tema1/img-5.png')
-            .col-lg-9
+            .col-xl-8
               p En la tabla anterior, se puede observar que la causa más representativa del cáncer está estrechamente relacionada con los factores alimentarios. Por esta razón, es muy importante estudiar y conocer las características de lo que es una buena nutrición y una dieta balanceada.
               .row.pe-lg-3.justify-content-center.align-items-center
-                .col-auto.pe-2
+                .col-auto.pe-2.img-l
                   img(src="@/assets/curso/temas/tema1/img-6.svg")
-                .col.px-0
+                .col
                   p.mb-0 La carcinogénesis es el proceso por el cual se produce el cáncer en una persona; también suele ser llamado oncogénesis. Hay diversos factores que influyen en el desarrollo de este proceso entre los cuales se destacan los factores dietéticos. La genética también juega un papel importante en la aparición de cáncer: es posible heredar genes carcinógenos u oncogenes en las células, que pueden ser activados bajos condiciones ambientales especiales, sin embargo, en la mayoría de los casos son prevenibles. Es por esto por lo que resulta de mucha importancia establecer los mecanismos que relacionan la dieta, los procesos digestivos y el cáncer. Por esta razón, se exponen los siguientes factores que influyen en el desarrollo del cáncer:
 
 
@@ -184,14 +184,14 @@
                   .crd_02__txt
                     p.mb-1 Estímulo a la activación de genes cancerígeno mediante los lípidos o la inhibición de la activación del cáncer por medio del consumo de vitamina A.
     .row.justify-content-center.align-items-center.mb-4
-      .row.align-items-center
+      .row.align-items-center(data-aos="zoom-in")
         .col-auto.mb-3
           h3.mb-0.fnd-2-1.fnd-2 Diabetes mellitus
       P.mb-4 La diabetes mellitus se define como un estado de hiperglucemia crónica, resultado de una serie de factores ambientales y genéticos que con frecuencia actúa conjuntamente. La hiperglucemia puede ser debida a un déficit (absoluto o relativo) de insulina endógena o a un exceso de los factores que se oponen a su acción. Este desequilibrio conduce a una anormalidad de los metabolismos de hidratos de carbono, grasas y proteínas.
       .row.justify-content-center.align-items-center
-        .col-lg-5.col-md-8.fnd-3.mb-4
+        .col-xl-5.col-md-12.fnd-3.mb-4
           p.mb-0 Existen dos tipos de diabetes: la primera de estas es la diabetes tipo I denominada diabetes juvenil, la cual se caracteriza porque hace que la persona sea insulinodependiente. Para hacer referencia a ésta se utiliza la sigla DMID que significa Diabetes Mellitus Insulinodependiente. La segunda corresponde a la diabetes tipo II o del adulto, la cual se caracteriza porque en un principio no es insulinodependiente y sus siglas son DMNID que significa Diabetes Mellitus No Insulinodependiente.
-        .col-lg-3.col-md-6
+        .col-xl-3.col-md-5.mb-4
           figure
             img(src='@/assets/curso/temas/tema1/img-10.svg')
         .col-lg-4.col-md-6
@@ -202,7 +202,7 @@
 
     p.mb-4 Una persona que sufre de diabetes desarrolla frecuentemente complicaciones como la insuficiencia renal, lesiones oculares y de los nervios periféricos, así como una mayor incidencia en enfermedades coronarias, arteriopatías de las extremidades de los miembros inferiores y trombosis cerebral.
                     
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Prevención del cáncer mediante la dieta
     p.mb-4 Existen muchos mecanismos mediante los cuales se puede reducir la probabilidad de contraer algún tipo de cáncer. A continuación, se describen algunos mecanismos asociados a los hábitos y costumbres diarias de personas que recomiendan realizar actividades saludables y evitar aquellas que puedan ocasionar la enfermedad. También se puede identificar que existen una serie de costumbres dietéticas y alimentarias que pueden ayudar a prevenir la aparición del cáncer en el organismo. A grandes rasgos, lo que se recomienda es llevar una dieta afín con las siguientes observaciones:
@@ -282,14 +282,14 @@
                 td 0,5% de la población
                 td 3-4% de la población
 
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Dieta
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p Es la alimentación adecuada que debe llevar una persona diabética para mantener bajo control su enfermedad y prevenir complicaciones posteriores. En primer lugar, se debe tener en cuenta que toda dieta para un diabético debe cumplir con los siguientes objetivos:
-        .fnd-5.mb-4
+        .fnd-5.mb-4.fnd-5-1
           .row.pe-lg-3.justify-content-center
             .col-auto.pe-2.mt-2
               img(src="@/assets/curso/temas/tema1/check.svg")
@@ -361,7 +361,7 @@
       .col-lg-4.col-md-6.p-0
         figure
           img(src='@/assets/curso/temas/tema1/img-16.svg')
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Enfermedades Cardiovasculares
     p Tres de los factores de riesgo cardiovascular son la obesidad, el colesterol y la hipertensión, los cuales pueden reducirse con adecuada alimentación. Según datos de la Federación Mundial del Corazón, las enfermedades cardiovasculares y los infartos causan 17,5 millones de muertes al año.
@@ -372,56 +372,58 @@
       .col-lg-12.fnd-8-1.p-lg-5.p-md-3
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0.col-lg-8.px-4
               h5 Recomendaciones y tratamiento
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
-                  p.mb-0 Restringir la ingesta de ácidos grasos saturados hasta menos del 10% de la ingesta energética diaria, y hasta menos del 7% en los grupos de alto riesgo. La cantidad y la calidad de las grasas deben calcularse teniendo cuenta la necesidad de cubrir las necesidades de energía. Ciertas fuentes de grasas saturadas, como los aceites de coco y de palma, aportan energía a bajo costo y pueden ser una importante fuente energética.      
-            .col-md-6
+                  p.mb-4 Restringir la ingesta de ácidos grasos saturados hasta menos del 10% de la ingesta energética diaria, y hasta menos del 7% en los grupos de alto riesgo. La cantidad y la calidad de las grasas deben calcularse teniendo cuenta la necesidad de cubrir las necesidades de energía. Ciertas fuentes de grasas saturadas, como los aceites de coco y de palma, aportan energía a bajo costo y pueden ser una importante fuente energética.      
+            .col-md-8.col-lg-4
               figure
                 img.img-262(src='@/assets/curso/temas/tema1/img-17.png')
           .row.justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0.col-lg-8.px-4
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
-                  p.mb-0 Las frutas y las verduras contribuyen a la salud cardiovascular gracias a la diversidad de fitonutrientes, el potasio y la fibra que contienen. Se recomienda el consumo diario de frutas y verduras frescas (incluidas bayas, hortalizas de hoja verde y crucíferas y leguminosas) en cantidades adecuadas (400-500 g diarios).   
+                  p.mb-4 Las frutas y las verduras contribuyen a la salud cardiovascular gracias a la diversidad de fitonutrientes, el potasio y la fibra que contienen. Se recomienda el consumo diario de frutas y verduras frescas (incluidas bayas, hortalizas de hoja verde y crucíferas y leguminosas) en cantidades adecuadas (400-500 g diarios).   
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
-                .col.px-0 Limitación de la ingesta alimentaria de sodio, restringiendo el consumo diario de sal (cloruro de sodio) a menos de 5 g al día.                     
-            .col-md-6
+                .col.px-0
+                  p.mb-4 Limitación de la ingesta alimentaria de sodio, restringiendo el consumo diario de sal (cloruro de sodio) a menos de 5 g al día.                     
+            .col-md-8.col-lg-4
               figure
                 img.img-262(src='@/assets/curso/temas/tema1/img-18.png')
           .row.justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0.col-lg-8.px-4
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
-                  p.mb-0 Se recomienda el consumo regular de pescado (una a dos raciones por semana), ya que protege contra la cardiopatía coronaria y el accidente cerebrovascular isquémico.
+                  p.mb-4 Se recomienda el consumo regular de pescado (una a dos raciones por semana), ya que protege contra la cardiopatía coronaria y el accidente cerebrovascular isquémico.
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
-                .col.px-0 Aunque el consumo regular de cantidades bajas a moderadas de alcohol protege contra la cardiopatía coronaria, existen otros riesgos cardiovasculares y para la salud asociados al alcohol que impiden recomendar su consumo de manera general.                    
-            .col-md-6
+                .col.px-0 
+                  p.mb-4 Aunque el consumo regular de cantidades bajas a moderadas de alcohol protege contra la cardiopatía coronaria, existen otros riesgos cardiovasculares y para la salud asociados al alcohol que impiden recomendar su consumo de manera general.                    
+            .col-md-8.col-lg-4
               figure
                 img.img-262(src='@/assets/curso/temas/tema1/img-19.png')
           .row.justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-md-12.mb-4.mb-md-0.col-lg-8.px-4
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
-                  p.mb-0 No se han establecido con seguridad los límites inferiores de la duración o la intensidad de la dosis de actividad física que tiene efecto protector, pero se considera suficiente la recomendación actual de un mínimo de 30 minutos de actividad física de intensidad cuando menos moderada la mayoría de los días de la semana. Una mayor cantidad o intensidad de ejercicio tendrían un mayor efecto protector.      
-            .col-md-6
+                  p.mb-4 No se han establecido con seguridad los límites inferiores de la duración o la intensidad de la dosis de actividad física que tiene efecto protector, pero se considera suficiente la recomendación actual de un mínimo de 30 minutos de actividad física de intensidad cuando menos moderada la mayoría de los días de la semana. Una mayor cantidad o intensidad de ejercicio tendrían un mayor efecto protector.      
+            .col-md-8.col-lg-4
               figure
-                img.img-262(src='@/assets/curso/temas/tema1/img-20.png')
+                img(src='@/assets/curso/temas/tema1/img-20.png')
 
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Osteoporosis
 
@@ -504,7 +506,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-27.png')
       .col-lg-8
-        .row.align-items-center
+        .row.align-items-center(data-aos="zoom-in")
           .col-auto.mb-3
             h3.mb-0.fnd-2-1.fnd-2 Sobrepeso y obesidad
         p Una persona tiene sobrepeso o es obesa cuando pesa más de lo que corresponde a su altura. Una acumulación anormal o excesiva de grasa puede afectar la salud. El sobrepeso y la obesidad pueden ser consecuencia de un desequilibrio entre las calorías consumidas (demasiadas) y las calorías gastadas (insuficientes). A escala mundial, las personas cada vez consumen alimentos y bebidas más calóricos (con alto contenido en azúcares y grasas), y tienen una actividad física más reducida.
@@ -637,7 +639,7 @@
               .crd_02__txt
                 p.mb-1 Se debe regular el horario de las comidas y comer despacio.
 
-    .row.align-items-center
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-4
         h3.mb-0.fnd-2-1.fnd-2 Diarrea
     p.mb-3 La diarrea se define como la evacuación anormal de heces de poca consistencia. Frecuentemente es una alteración simple del organismo, pero es importante no pasarla por alto puesto que puede ser síntoma de una enfermedad más grave. Según sus características se pueden clasificar de diferentes formas:
@@ -673,27 +675,27 @@
               img(src='@/assets/curso/temas/tema1/img-34.png')
           .col-lg-9
             .row.pe-lg-3.justify-content-center.align-items-center.mb-3
-              .col-auto.pe-2
+              .col-auto.pe-2.img-l
                 img(src="@/assets/curso/temas/tema1/img-35.svg")
-              .col.px-0
+              .col
                 p.mb-0 Los medios alimenticios más frecuentes por los cuales se transmiten las bacterias patógenas son el agua y la mayonesa. Cuando se presenta una infección, además de diarrea, también se pueden presentar náuseas, vómitos, malestar general y dolores musculares. Por lo general, la manifestación de la enfermedad se da en un tiempo corto después de la ingesta del alimento contaminado, el tiempo mínimo de manifestación es de dos (2) horas y el máximo de tres (3) días.
             p Cuando una persona se expone a una flora bacteriana normal (no patógena) en sus alimentos, diferente a la que está expuesta de manera regular, puede sufrir lo que normalmente se denomina diarrea de viajero. Esta se caracteriza por ser repentina, estar acompañada de náuseas, vómitos y causar dolores intestinales; estos síntomas suelen presentarse durante la primera semana de exposición.
     
-    .row.justify-content-center.align-items-center.mb-5.fnd-9
-      .col-lg-9.ps-5.py-4 
-        p <b>Prevención y tratamiento:</b> En muchas ocasiones las enfermedades se eliminan por sí mismas; generalmente en las gastroenteritis por toxinfección, la normalidad del tracto intestinal se regula en los primeros dos días, con o sin tratamiento.
-        p Sin embargo, muchas veces se requiere de una intervención para frenar los síntomas causados por la enfermedad. Para esto se emplean diversos tratamientos, pero, a manera general, todo tratamiento debe buscar cumplir los siguientes objetivos: evitar la deshidratación dando un adecuado soporte de líquidos, y realizar una dieta astringente, es decir que tenga efectos cicatrizantes y antiinflamatorios.
-      .col-lg-3.col-md-6.p-0
-        figure
-          img(src='@/assets/curso/temas/tema1/img-36.svg')
-    .row.justify-content-center.align-items-center.mb-5.fnd-10
-      .col-lg-3.col-md-6
-        figure
-          img(src='@/assets/curso/temas/tema1/img-37.png')    
-      .col-lg-9.py-4          
-        p El uso de antibióticos debe estar determinado únicamente por un médico y por lo general se emplean en casos complejos donde se presentan síntomas como la fiebre elevada y persistente. La utilización de medicamentes antidiarreicos debe reservarse para casos en donde la cantidad de evacuaciones es elevada.
-        p Siempre se aconseja que se acuda a supervisión médica cuando se está sufriendo de una diarrea, sin embargo, en algunos casos el asistir a un médico es una determinación obligatoria; por ejemplo en los casos de los niños menores de tres años, en las personas mayores a 65 años, en las mujeres embarazadas, en los pacientes con historial médico de enfermedades crónicas como el asma, úlcera y las enfermedades cardíacas; también si la diarrea es persistente y presenta un número elevado de evacuaciones con presencia de vómito y mal estado general.
-    .row.align-items-center
+        .row.justify-content-center.align-items-center.mb-5.fnd-9
+          .col-lg-8.ps-lg-5.py-4 
+            p <b>Prevención y tratamiento:</b> En muchas ocasiones las enfermedades se eliminan por sí mismas; generalmente en las gastroenteritis por toxinfección, la normalidad del tracto intestinal se regula en los primeros dos días, con o sin tratamiento.
+            p Sin embargo, muchas veces se requiere de una intervención para frenar los síntomas causados por la enfermedad. Para esto se emplean diversos tratamientos, pero, a manera general, todo tratamiento debe buscar cumplir los siguientes objetivos: evitar la deshidratación dando un adecuado soporte de líquidos, y realizar una dieta astringente, es decir que tenga efectos cicatrizantes y antiinflamatorios.
+          .col-lg-4.col-md-6.p-0
+            figure
+              img(src='@/assets/curso/temas/tema1/img-36.svg')
+        .row.justify-content-center.align-items-center.mb-5.fnd-10
+          .col-lg-4.col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img-37.png')    
+          .col-lg-8.py-4          
+            p El uso de antibióticos debe estar determinado únicamente por un médico y por lo general se emplean en casos complejos donde se presentan síntomas como la fiebre elevada y persistente. La utilización de medicamentes antidiarreicos debe reservarse para casos en donde la cantidad de evacuaciones es elevada.
+            p Siempre se aconseja que se acuda a supervisión médica cuando se está sufriendo de una diarrea, sin embargo, en algunos casos el asistir a un médico es una determinación obligatoria; por ejemplo en los casos de los niños menores de tres años, en las personas mayores a 65 años, en las mujeres embarazadas, en los pacientes con historial médico de enfermedades crónicas como el asma, úlcera y las enfermedades cardíacas; también si la diarrea es persistente y presenta un número elevado de evacuaciones con presencia de vómito y mal estado general.
+    .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
         h3.mb-0.fnd-2-1.fnd-2 Estreñimiento
     p El estreñimiento es definido como la dificultad para defecar, ocasionado por el endurecimiento de las heces y en donde se presenta una disminución del número de evacuaciones.

@@ -9,8 +9,13 @@
     position: absolute
     top: 8%
     right: 6%
-
-
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 68%
+    right: 27%
+    @media(max-width: 1200px)
+      display: none
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -50,9 +55,13 @@
 .img-11
   width: 11px
 .img-298
-  width: 241px
-  height: 298px
+  max-width: 241px
+  max-height: 298px
   margin: auto
+
+.img-l
+  @media (max-width: 576px) 
+    display: none
 .fnd-
   padding: 2rem
   &-1
@@ -123,7 +132,8 @@
 .fnd-5
   background-color: #E6F8E6
   padding: 2rem     
-
+  &-1
+    border-radius: 1rem
 .fnd-6
   background-color: #EEEAFE !important 
   @media (max-width: 768px) 
@@ -131,6 +141,10 @@
       margin-bottom: 1rem
 .fnd-7
   background-color: #F2FBF2 !important  
+  &-1
+    padding: 2rem
+    background-color: #E6F8E6
+    border-radius: 1rem
 .fnd-8   
   background: url('../assets/curso/temas/tema1/fnd-2.svg') no-repeat left top
   background-size: cover
@@ -142,6 +156,10 @@
   &-2
     background: url('../assets/curso/temas/tema1/fnd-3.svg') no-repeat left top    
     background-size: cover
+  &-3
+    background: url('../assets/curso/temas/tema4/fnd-2.svg') no-repeat left top    
+    background-size: cover
+    padding: 2rem
 .fnd-9
   background-color: #CEF1CE
 .fnd-10  
@@ -305,6 +323,9 @@
       font-weight: bold  
   .tt
     background-color: #FDE7D6 
+  .ttt
+    td
+      background-color: #FEF8F4     
 .tbl5-
   table
     overflow-x: auto
@@ -541,12 +562,11 @@ $crd-width: calc(100% - ((#{$crd-icon-size} / 2)))
       text-align: center
     @media (max-width: 576px) 
       padding: 1rem
-      .mtt
-        margin-top: 0.5rem
+
   @media (min-width:1200px) 
     .crd_hover_txt--body
-       padding: 1rem 1.5rem !important
-    .mtt
-      margin-top: 0.5rem
-  
-  
+       padding: 0.6rem 1.5rem !important
+
+  @media (min-width: 992px) and (max-width: 1200px) 
+    .crd_hover_txt--body
+      padding: 0.6rem 1.5rem !important

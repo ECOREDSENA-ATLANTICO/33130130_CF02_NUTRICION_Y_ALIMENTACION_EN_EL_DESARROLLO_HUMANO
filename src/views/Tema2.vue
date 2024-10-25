@@ -7,20 +7,20 @@
         span 2
       h1 Aspectos fundamentales para evitar enfermedades por malnutrición
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-5.col-md-6.mb-md-5
+      .col-xl-5.col-md-6.mb-md-5.col-lg-8
         figure
           img(src='@/assets/curso/temas/tema2/img-1.png')           
           
-      .col-lg-7  
+      .col-xl-7  
         p.mb-3 La buena alimentación con una dieta equilibrada es aquella que contiene una cantidad adecuada y variada de alimentos que proporcionan los nutrientes con las cualidades necesarias y en las cantidades correctas.
-        .row.pe-lg-5.justify-content-center
-          .col-auto.pe-2.mt-2
+        .row.pe-lg-5.justify-content-center.mb-3.align-items-center
+          .col-auto.pe-2.mt-2.img-l
             img(src="@/assets/curso/temas/tema2/img-2.svg")
-          .col.px-0
-            p.mb-3 El funcionamiento normal del cuerpo humano requiere de la presencia de sustancias imprescindibles que por sí mismo no se pueden producir. Son nutrientes que influyen directamente en el funcionamiento del cuerpo desde el momento en que se ingieren, e incluso tiene incidencia en el funcionamiento futuro del cuerpo de la persona. Estas sustancias son las siguientes: proteínas, glúcidos, lípidos, vitaminas, sales minerales y agua.
+          .col
+            p.mb-0 El funcionamiento normal del cuerpo humano requiere de la presencia de sustancias imprescindibles que por sí mismo no se pueden producir. Son nutrientes que influyen directamente en el funcionamiento del cuerpo desde el momento en que se ingieren, e incluso tiene incidencia en el funcionamiento futuro del cuerpo de la persona. Estas sustancias son las siguientes: proteínas, glúcidos, lípidos, vitaminas, sales minerales y agua.
         p.mb-3 Adicionalmente a estas sustancias básicas de una dieta equilibrada, existen otras que resultan muy beneficiosas para el cuerpo humano por sus distintas propiedades y los efectos que producen en las personas que los consumen. Entre ellas están los antioxidantes y los componentes bioactivos.
 
-    .row.mb-4.pe-lg-3.align-items-center(data-aos="fade-left")
+    .row.mb-4.pe-lg-3.align-items-center(data-aos="zoom-in")
       .col-auto.pe-2
         figure
           img(src='@/assets/curso/temas/tema2/img-4.svg')
@@ -70,10 +70,10 @@
           img(src='@/assets/curso/temas/tema2/img-6.svg')
 
     .row.justify-content-center.align-items-center.mb-5.fnd-6(data-aos="fade-left")
-      .col-lg-4.col-md-6.p-0
+      .col-lg-5.col-md-6.p-0
         figure
           img(src='@/assets/curso/temas/tema2/img-7.png') 
-      .col-lg-8.px-4
+      .col-lg-7.px-4
         p El gasto energético de un deportista tiene unas necesidades particulares, sin embargo, existen otras necesidades calóricas a las que se demanda por la acción del deporte. Estas pueden establecerse en unas 2500 y 3500 kcal/día y se derivan del gasto normal realizado por el cuerpo en las actividades regulares deltrabajo, el crecimiento y el desarrollo del cuerpo como la propia combustión. A estos gastos se les añaden aquellos propios de la actividad deportiva, tanto por su cantidad y su calidad en los siguientes aspectos:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
