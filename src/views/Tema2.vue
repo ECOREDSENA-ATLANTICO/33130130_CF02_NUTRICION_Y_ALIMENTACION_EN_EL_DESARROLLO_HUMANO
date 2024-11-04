@@ -85,7 +85,7 @@
         .row.align-items-center
           .titulo-sexto.color-acento-contenido
             h5 Figura 5
-
+            span Esfuerzos fisicos
         .col-lg-12 
           .col-auto.pe-2
             figure

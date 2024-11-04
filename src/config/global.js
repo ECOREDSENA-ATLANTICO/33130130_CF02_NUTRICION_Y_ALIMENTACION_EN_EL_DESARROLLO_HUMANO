@@ -108,7 +108,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Concejo de alimentación para prevenir enfermedades.',
+      tema: 'Consejo de alimentación para prevenir enfermedades.',
       referencia: 'Ecosistema recursos SENA [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/1gQgdQHYYDU?si=P6Nap2toNJ5JAjO1',
@@ -117,72 +117,60 @@ export default {
 
   glosario: [
     {
-      termino: 'Absorción:',
+      termino: 'Absorción',
       significado:
         'es el proceso por el cual los nutrientes se mueven desde el lumen intestinal hasta la sangre, dando como resultado la absorción de nutrientes en el organismo.',
     },
+
     {
-      termino: 'Absorción:',
-      significado:
-        'es el proceso por el cual los nutrientes se mueven desde el lumen intestinal hasta la sangre, dando como resultado la absorción de nutrientes en el organismo.',
-    },
-    {
-      termino: 'Amilasa:',
+      termino: 'Amilasa',
       significado:
         'es una enzima hidrolasa que se produce en las gandulas salivares y que tiene la capacidad de sintetizar el almidón para volverlo más simple.',
     },
+
     {
-      termino: 'Absorción:',
+      termino: 'Cáncer',
       significado:
-        'es el proceso por el cual los nutrientes se mueven desde el lumen intestinal hasta la sangre, dando como resultado la absorción de nutrientes en el organismo.',
+        'es una enfermedad que se caracteriza por la presencia de células anormales en cuerpo, las cuales crecen y se multiplican de manera descontrolada.',
     },
+
     {
-      termino: 'Cáncer:',
+      termino: 'Cerebrósidos',
       significado:
         'es una enfermedad que se caracteriza por la presencia de células anormales en cuerpo, las cuales crecen y se multiplican de manera descontrolada.',
     },
     {
-      termino: 'Cáncer:',
-      significado:
-        'es una enfermedad que se caracteriza por la presencia de células anormales en cuerpo, las cuales crecen y se multiplican de manera descontrolada.',
-    },
-    {
-      termino: 'Cerebrósidos:',
-      significado:
-        'es una enfermedad que se caracteriza por la presencia de células anormales en cuerpo, las cuales crecen y se multiplican de manera descontrolada.',
-    },
-    {
-      termino: 'Digestión:',
+      termino: 'Digestión',
       significado:
         'es un proceso que comprende procesos mecánicos y químicos por medio de los cuales los materiales alimenticios complejos son hidrolizados a formas adecuadas, para poder ser absorbidos por la pared de la mucosa y así ser utilizados por el organismo',
     },
     {
-      termino: 'Disacáridos:',
+      termino: 'Disacáridos',
       significado:
         'están formados por dos monosacáridos y son los azucares más abundantes de los alimentos, los más conocidos son la sacarosa, lactosa y maltosa.',
     },
     {
-      termino: 'Enzimas:',
+      termino: 'Enzimas',
       significado:
         'son catalizadores orgánicos de naturaleza proteica que aumentan considerablemente la velocidad de las reacciones.',
     },
     {
-      termino: 'Fibra:',
+      termino: 'Fibra',
       significado:
         'se encuentra y origina en las paredes celulares de los vegetales, los componentes más conocidos son la celulosa, hemicelulosa, pectinas y lignina.',
     },
     {
-      termino: 'Glicoproteínas:',
+      termino: 'Glicoproteínas',
       significado:
         'es una proteína que esta unidad a monosacáridos y por lo general tienen mayor número de proteínas.',
     },
     {
-      termino: 'Glucolípidos:',
+      termino: 'Glucolípidos',
       significado:
         'están compuesta de esfingolípidos que es la ceramida más ácida graso, hacen parte de capa lipídica de membrana celular, los glúcidos que los conforman pueden ser galactosa, fructosa, glucosa y manosa.',
     },
     {
-      termino: 'Hidratos de carbono:',
+      termino: 'Hidratos de carbono',
       significado:
         'los hidratos de carbono o glúcidos son moléculas de carbono, hidrógeno y oxígeno cuya fórmula es (CH2O)n, se clasifican en azúcares simples llamados monosacáridos, disacáridos y polisacáridos.',
     },
@@ -192,74 +180,68 @@ export default {
         'están constituidos por fosfolípidos y colesterol; la función más relevante de estos compuestos es proporcionar energía al metabolismo y dar elementos estructurales a la membrana celular.',
     },
     {
-      termino: 'Metabolismo:',
+      termino: 'Metabolismo',
       significado:
         'hace referencia a un sinnúmero de reacciones bioquímicas y fisicoquímicas que ocurren en las células y en el organismo. Metabolismo basal (TMB): Hace referencia a la cantidad mínima de energía que el organismo requiere para que el cuerpo se mantenga despierto o en reposo y de esta manera cumplir todas sus actividades vitales como respiración, presión arterial, latidos del corazón, entre otros.',
     },
     {
-      termino: 'Minerales:',
+      termino: 'Minerales',
       significado:
         'son sustancias naturales compuestas por moléculas formadas por átomos de uno o más elementos químicos',
     },
     {
-      termino: 'Monosacáridos:',
+      termino: 'Monosacáridos',
       significado:
         'Son azucares simples compuestos de tres a siete átomos de carbono, en este grupo se encuentra la glucosa y la fructosa.',
     },
     {
-      termino: 'Mucina:',
+      termino: 'Mucina',
       significado: 'es una proteína que tiene la capacidad de formar geles.',
     },
     {
-      termino: 'Nutrición:',
+      termino: 'Nutrición',
       significado:
         'ciencia que estudia las relaciones entre los nutrientes y el organismo humano a nivel individual y colectivo, en diferentes situaciones fisiológicas y patológicas.',
     },
     {
-      termino: 'Nutrientes:',
+      termino: 'Nutrientes',
       significado:
         'son compuestos que se encuentran en los alimentos como proteínas, lípidos, glúcidos, minerales y vitaminas; que deben ser suministrados al cuerpo en cantidades adecuadas.',
     },
     {
-      termino: 'Pepsina:',
+      termino: 'Pepsina',
       significado:
         'es una enzima que hidroliza las proteínas y se encuentra en el estómago.',
     },
     {
-      termino: 'Mucina:',
-      significado: 'es una proteína que tiene la capacidad de formar geles.',
-    },
-    {
-      termino: 'Pepsinógeno:',
+      termino: 'Pepsinógeno',
       significado: 'es una proenzima que se encuentra en el estómago.',
     },
     {
-      termino: 'Polisacáridos:',
+      termino: 'Polisacáridos',
       significado:
         'están formados por moléculas de diez o más monosacáridos, se descomponen en moléculas más pequeñas por hidrólisis en el organismo de los seres humanos y tienen la función de mantener reservas de energía.',
     },
     {
-      termino: 'Proteínas:',
+      termino: 'Proteínas',
       significado:
         'son sustancias orgánicas que contienen en general una base de elementos químicos como el carbono, el hidrógeno, el oxígeno y nitrógeno, están formadas por cadenas lineales de aminoácidos los cuales están encadenados a enlaces peptídicos que se forman en el grupo carboxilo de un aminoácido.',
     },
     {
-      termino: 'Proteoglicanos:',
+      termino: 'Proteoglicanos',
       significado:
         'es una glicoproteína que está unida a un tipo especial de polisacáridos. Triglicéridos: Son grasas naturales de baja densidad, lo cual les da la característica de almacenar energía en el tejido adiposo.',
     },
     {
-      termino: 'Vitaminas:',
+      termino: 'Vitaminas',
       significado:
-        'compuestos orgánicos que el hombre necesita en dosis bajas para que el cuerpo se desarrolle adecuadamente, es necesario ingerirlas pues el organismo no tiene la capacidad de producirlas',
+        'compuestos orgánicos que el hombre necesita en dosis bajas para que el cuerpo se desarrolle adecuadamente, es necesario ingerirlas pues el organismo no tiene la capacidad de producirlas.',
     },
   ],
   referencias: [
     {
       referencia:
         'Catherine Shaffer, M. (6 de Noviembre de 2016). <em>News Medical Life Sc iences.</em>',
-      link:
-        'http://www.news-medical.net/health/Types-of-Vitamin-B-(Spanish).aspx ',
     },
     {
       referencia: 'Centro Médico <em>Teknon.</em> (2016).',
@@ -307,7 +289,6 @@ export default {
     {
       referencia:
         'Nutrición deportiva. (s.f.). Servicio de nutrición. Pamplona, Navarra, España',
-      link: 'http://www.podiumns.com/es/servicios/nutricion-deportiva/.',
     },
     {
       referencia:
@@ -369,18 +350,18 @@ export default {
           centro: 'Centro Agroindustrial - Regional Quindío',
         },
         {
-          nombre: 'Zulma rocio bravo Jiménez',
+          nombre: 'Zulma Rocio Bravo Jiménez',
           cargo: 'Diseñadores gráficos',
           centro: 'Centro Agroindustrial - Regional Quindío',
         },
 
         {
-          nombre: 'Hector salina castellanos',
+          nombre: 'Hector Salina Castellanos',
           cargo: 'Guionista del equipo',
           centro: 'Centro Agroindustrial - Regional Quindío.',
         },
         {
-          nombre: 'Zulma Yurany viancha rodriguez',
+          nombre: 'Zulma Yurany Viancha Rodriguez',
           cargo: 'Líder del del Equipo ',
           centro: 'Centro Agroindustrial - Regional Quindío.',
         },

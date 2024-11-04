@@ -104,7 +104,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6
             .cajon.color-secundario.p-4.fnd-7.mb-4
-              p.mb-0 Para planear una dieta equilibrada se necesita determinar los alimentos en cantidades adecuadas de acuerdo con las necesidades, los cuales están asociados al peso del individuo, la edad y actividadque desarrolle. Se estudiarán cuáles son las necesidades diarias teniendo en cuenta que:
+              p.mb-0 Para planear una dieta equilibrada se necesita determinar los alimentos en cantidades adecuadas de acuerdo con las necesidades, los cuales están asociados al peso del individuo, la edad y actividad que desarrolle. Se estudiarán cuáles son las necesidades diarias teniendo en cuenta que:
 
           .col-lg-6
             .row.pe-lg-3.justify-content-center
@@ -154,7 +154,7 @@
             .row.justify-content-center.align-items-center
               .col-xl-4
                 h5 Moderación	
-                p se recomienda consumir alimentos en porciones moderadas en número y tamaño, según las necesidades de energía de cada persona en particular. Seguir las pautas dadas ayuda a prevenir algunas enfermedades como la obesidad.
+                p Se recomienda consumir alimentos en porciones moderadas en número y tamaño, según las necesidades de energía de cada persona en particular. Seguir las pautas dadas ayuda a prevenir algunas enfermedades como la obesidad.
               .col-xl-8
                 figure
                   img(src='@/assets/curso/temas/tema3/img-6.png')
@@ -165,7 +165,7 @@
         .row
           .col-xl-6
             h4 Primer nivel
-            p Los alimentos que se encuentran allí son de tipo energético tales como: cereales, arroz, pan, pasta y papas, los cuales aportan calorías al organismo;se recomienda consumir de cuatro a seis raciones al día.
+            p Los alimentos que se encuentran allí son de tipo energético tales como: cereales, arroz, pan, pasta y papas, los cuales aportan calorías al organismo; se recomienda consumir de cuatro a seis raciones al día.
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img-8.png')            
@@ -174,7 +174,7 @@
         .row
           .col-xl-6   
             h4 Segundo nivel
-            p En este nivel se encuentran las frutas y verduras, este grupo de alimentos aporta a la dieta: fibra, vitaminas y antioxidantes beneficiosos para todoslos grupos de edades; se recomienda el consumo de dos a tres raciones diarias de estos alimentos.
+            p En este nivel se encuentran las frutas y verduras, este grupo de alimentos aporta a la dieta: fibra, vitaminas y antioxidantes beneficiosos para todos los grupos de edades; se recomienda el consumo de dos a tres raciones diarias de estos alimentos.
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img-10.png')      
@@ -186,7 +186,7 @@
         .row
           .col-xl-6   
             h4 Pico de la pirámide
-            p En este último nivel situado en el pico de la pirámide se encuentran productos que tienen una gran cantidad de grasas como es el caso de las aceitunas, aceites vegetales como el de girasol, oliva, maíz y soya. El consumode estos productos debe ser moderado pues aportan muchas calorías y sealmacenan con facilidad en el cuerpo.
+            p En este último nivel situado en el pico de la pirámide se encuentran productos que tienen una gran cantidad de grasas como es el caso de las aceitunas, aceites vegetales como el de girasol, oliva, maíz y soya. El consumode estos productos debe ser moderado pues aportan muchas calorías y se almacenan con facilidad en el cuerpo.
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img-9.png')      

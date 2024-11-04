@@ -69,6 +69,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 2. 
+          span Ingesta alimentaria
         figure
           img(src='@/assets/curso/temas/tema1/img-3.svg')
         figcaption Nota. SENA
@@ -215,7 +216,7 @@
         SlyderF.custom(columnas="col-lg-6 col-md-6")
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             h5.mb-3 Consumo de alimentos:
-            p.mb-0 aumentar el consumo de alimentos ricos en fibras, como las manzanas, peras, albaricoques, plátanos fresas, zanahorias, papas, coliflor, guisantes, brócoli , espinacas , , garbanzo, lentejas, cereales y derivados del grano como las pasta y el pan. 
+            p.mb-0 aumentar el consumo de alimentos ricos en fibras, como las manzanas, peras, albaricoques, plátanos fresas, zanahorias, papas, coliflor, guisantes, brócoli, espinacas, garbanzo, lentejas, cereales y derivados del grano como las pasta y el pan. 
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             h5.mb-3 Disminuir consumos:
             p.mb-0 grasas animales, evitando el consumo de la grasa visible de las carnes y cocinar con grasas animales como la manteca y la mantequilla, además se debe limitar el consumo de productos de pastelería y helados.  
@@ -242,7 +243,7 @@
         .tabla-b.color-acento-contenido.tbl1
 
           table
-            caption Fuente: (Riba, Vila, infiesta, y urgell, 1993)
+            caption Fuente: (Riba, Vila, Infiesta, y Urgell, 1993)
             thead
               tr
                 th 
@@ -346,6 +347,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 3. 
+          span Dieta
         figure
           img(src='@/assets/curso/temas/tema1/img-15.svg')
         figcaption.mb-5 Nota. SENA

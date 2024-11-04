@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En esta actividad de aprendizaje se describe la importancia de una dieta equilibrada y las necesidades nutricionales en las diferentes etapas de la vida. Además, se muestra la pirámide de los alimentos que es la base nutricional del ser humano. El material de estudio permite comprender los aspectos relacionados con la actividad de aprendizaje a desarrollar, esto con el fin de que el aprendiz pueda realizar las actividades de la mejor manera.
+        p.mb-0 En esta parte del componente se describe la importancia de una dieta equilibrada y las necesidades nutricionales en las diferentes etapas de la vida. Además, se muestra la pirámide de los alimentos que es la base nutricional del ser humano. El material de estudio permite comprender los aspectos relacionados con la actividad de aprendizaje a desarrollar, esto con el fin de que el aprendiz pueda realizar las actividades de la mejor manera.
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10        
         .row.justify-content-center.align-items-center                  
@@ -33,7 +33,7 @@
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
                   .col.px-0
-                    p.mb-0 750 ml/día (primer semestre)
+                    p.mb-0 750 ml/día (primer semestre).
                 .row.pe-lg-3.justify-content-center
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
@@ -43,12 +43,12 @@
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
                   .col.px-0
-                    p.mb-0 600 ml/día (segundo semestre)
+                    p.mb-0 600 ml/día (segundo semestre).
                 .row.pe-lg-3.justify-content-center
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
                   .col.px-0
-                    p.mb-0 510Kcal/día
+                    p.mb-0 510Kcal/día.
               .col-xl-5.col-md-4.col-lg-4
                 figure
                   img.img-s(src="@/assets/curso/temas/tema4/img-2.svg")
@@ -111,11 +111,27 @@
       .col-lg-6.fnd--2.fnd-
         .row.justify-content-center.align-items-center
           .col-xl-6
-            p.mb-3 <b>Recomendaciones generales de tipo alimentario.</b> Seguir una dieta variada y equilibrada incluyendo alimentos de todos los grupos, especialmente:
-            p.mb-0 Lácteos.
-            p.mb-0 Alimentos proteicos.
-            p.mb-0 Frutas y verduras.
-            p.mb-3 Asegurar un buen aporte hídrico.
+            p.mb-3 <b>Recomendaciones generales de tipo alimentario.</b> <br>Seguir una dieta variada y equilibrada incluyendo alimentos de todos los grupos, especialmente:
+            .row.pe-lg-3.justify-content-center
+              .col-auto.pe-2.mt-2
+                img(src="@/assets/curso/temas/tema1/check.svg")
+              .col.px-0
+                p.mb-0 Lácteos.
+            .row.pe-lg-3.justify-content-center
+              .col-auto.pe-2.mt-2
+                img(src="@/assets/curso/temas/tema1/check.svg")
+              .col.px-0
+                p.mb-0 Alimentos proteicos.
+            .row.pe-lg-3.justify-content-center
+              .col-auto.pe-2.mt-2
+                img(src="@/assets/curso/temas/tema1/check.svg")
+              .col.px-0
+                p.mb-0 Frutas y verduras.
+            .row.pe-lg-3.justify-content-center.mb-4
+              .col-auto.pe-2.mt-2
+                img(src="@/assets/curso/temas/tema1/check.svg")
+              .col.px-0
+                p.mb-0 Asegurar un buen aporte hídrico.
             p Restringir la ingestión de alcohol y evitar el consumo de bebidas estimulantes (café, té, refrescos con cafeína, etc).
             
           .col-xl-6.col-md-6
@@ -195,7 +211,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4. 
+          h5 Figura 6. 
           span Pautas alimenticias en la infancia           
         figure
           img(src='@/assets/curso/temas/tema4/img-10.png')                 
@@ -207,27 +223,27 @@
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  p.mb-1 <b>Alimentación diversificada.</b>
+                  p.mb-1 Alimentación diversificada.
                   
           .col-xl-3.col-md-6.col-lg-6
             .crd_02.mb-5.crd_02-2
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  p.mb-1 <b>Distribución y horarios regulares de comidas.</b>
+                  p.mb-1 Distribución y horarios regulares de comidas.
                   
           .col-xl-3.col-md-6.col-lg-6
             .crd_02.mb-5.crd_02-2
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  p.mb-1 <b>Selección de alimentos.</b>
+                  p.mb-1 Selección de alimentos.
           .col-xl-3.col-md-6.col-lg-6
             .crd_02.mb-5.crd_02-2
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  p.mb-1 <b>Dieta variada en platos, olores, colores, sabores, texturas y consistencia.</b>
+                  p.mb-1 Dieta variada en platos, olores, colores, sabores, texturas y consistencia.
 
 
     .row.justify-content-center.align-items-center.mb-5.fnd-6(data-aos="fade-left")
@@ -240,7 +256,7 @@
           .col-auto.pe-2.mt-2
             img(src="@/assets/curso/temas/tema2/check.svg")
           .col.px-0
-            p.mb-0 <b>Desayuno:</b> Se debe incluir leche u otro lácteo, cereales o tostadas, un pequeñosándwich y jugo de frutas.
+            p.mb-0 <b>Desayuno:</b> Se debe incluir leche u otro lácteo, cereales o tostadas, un pequeño sándwich y jugo de frutas.
         .row.pe-lg-3.justify-content-center
           .col-auto.pe-2.mt-2
             img(src="@/assets/curso/temas/tema2/check.svg")
@@ -327,31 +343,31 @@
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  h5.mb-1 Adquisición de independencia.
+                  p.mb-1 Adquisición de independencia.
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  h5.mb-1 Desarrollo de la personalidad.
+                  p.mb-1 Desarrollo de la personalidad.
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  h5.mb-1 Búsqueda de la propia identidad.
+                  p.mb-1 Búsqueda de la propia identidad.
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  h5.mb-1 Desarrollo intelectual.
+                  p.mb-1 Desarrollo intelectual.
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
                   img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
                 .crd_02__txt
-                  h5.mb-1 Madurez y maduración sexual.
+                  p.mb-1 Madurez y maduración sexual.
       .col-lg-5.col-md-8
         figure.mb-4
           img(src='@/assets/curso/temas/tema4/img-14.png')
@@ -883,7 +899,7 @@
             p.mb-0 • Mejorar la palatabilidad de la dieta.
           .tarjeta.tarjeta--slyder.p-4.fnd-44
             h5.mb-3 Vitaminas.	
-            p.mb-0 Las vitaminas hidrosolubles a las que se les debe prestar atención son las siguientes: Ácido fólico, vitamina B12, vitamina B6, vitamina C.
+            p.mb-0 Las vitaminas hidrosolubles a las que se les debe prestar atención son las siguientes: ácido fólico, vitamina B12, vitamina B6, vitamina C.
             p.mb-0 Las vitaminas liposolubles a las que se debe poner atención son las siguientes: Vitamina A, vitamina D, vitamina E.
           .tarjeta.tarjeta--slyder.p-4.fnd-44
             figure.mb-4(data-aos="zoom-in")
@@ -911,7 +927,7 @@
             figure
               img(src="@/assets/curso/temas/tema4/img-35.png", alt="alt")
           .crd_hover_txt--body
-            h5.mb-5 Concejos favorables en la ingesta de agua:
+            h5.mb-5 Consejos favorables en la ingesta de agua:
             p.mb-0 • Tomar un mínimo de 6 a 8 vasos de agua al día.
             p.mb-0 • Beber entre comidas y justo antes de comer.
             p.mb-0 • Estimular la ingesta de agua asociada a actividades placenteras.

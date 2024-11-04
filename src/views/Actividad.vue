@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
+  BannerInterno.fnd-act(icono="far fa-question-circle" titulo="Actividad didáctica")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     #Actividad                
@@ -32,8 +32,8 @@ export default {
           opciones: [
             { id: 'a', texto: 'Artritis.', esCorrecta: false },
             { id: 'b', texto: 'Diabetes tipo 2.', esCorrecta: true },
-            { id: 'c', texto: 'Asma', esCorrecta: false },
-            { id: 'd', texto: 'Hipertensión arterial', esCorrecta: false },
+            { id: 'c', texto: 'Asma.', esCorrecta: false },
+            { id: 'd', texto: 'Hipertensión arterial.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -47,22 +47,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Evitar las grasas a toda costa',
+              texto: 'Evitar las grasas a toda costa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Seguir una dieta equilibrada',
+              texto: 'Seguir una dieta equilibrada.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Saltar comidas',
+              texto: 'Saltar comidas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Consumir solo alimentos procesados',
+              texto: 'Consumir solo alimentos procesados.',
               esCorrecta: false,
             },
           ],
@@ -77,22 +77,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Para desarrollar hábitos poco saludables',
+              texto: 'Para desarrollar hábitos poco saludables.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Para un crecimiento y desarrollo óptimos',
+              texto: 'Para un crecimiento y desarrollo óptimos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para aumentar el tiempo de juego',
+              texto: 'Para aumentar el tiempo de juego.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para disminuir la actividad física',
+              texto: 'Para disminuir la actividad física.',
               esCorrecta: false,
             },
           ],
@@ -108,16 +108,16 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Prevención de enfermedades crónicas',
+              texto: 'Prevención de enfermedades crónicas.',
               esCorrecta: true,
             },
-            { id: 'b', texto: 'Mayor consumo de azúcares', esCorrecta: false },
+            { id: 'b', texto: 'Mayor consumo de azúcares.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Ignorar la actividad física',
+              texto: 'Ignorar la actividad física.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'La historia familiar', esCorrecta: false },
+            { id: 'd', texto: 'La historia familiar.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -130,16 +130,16 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'La cantidad de horas de sueño',
+              texto: 'La cantidad de horas de sueño.',
               esCorrecta: false,
             },
-            { id: 'b', texto: 'Cambios en el metabolismo', esCorrecta: true },
+            { id: 'b', texto: 'Cambios en el metabolismo.', esCorrecta: true },
             {
               id: 'c',
-              texto: 'La cantidad de ejercicio realizado en la juventud',
+              texto: 'La cantidad de ejercicio realizado en la juventud.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Mejorar la visión', esCorrecta: false },
+            { id: 'd', texto: 'Mejorar la visión.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -153,19 +153,19 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Alimentos ricos en azúcares',
+              texto: 'Alimentos ricos en azúcares.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Alimentos ricos en nutrientes',
+              texto: 'Alimentos ricos en nutrientes.',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'Comida rápida', esCorrecta: false },
-            { id: 'd', texto: 'Alimentos muy procesados', esCorrecta: false },
+            { id: 'c', texto: 'Comida rápida.', esCorrecta: false },
+            { id: 'd', texto: 'Alimentos muy procesados.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta..',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta..',
         },
         {
           id: 7,
@@ -174,10 +174,10 @@ export default {
           imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Participación en deportes', esCorrecta: false },
-            { id: 'b', texto: 'Bajo peso para su edad', esCorrecta: true },
-            { id: 'c', texto: 'Consumo de verduras', esCorrecta: false },
-            { id: 'd', texto: 'Buen rendimiento escolar', esCorrecta: false },
+            { id: 'a', texto: 'Participación en deportes.', esCorrecta: false },
+            { id: 'b', texto: 'Bajo peso para su edad.', esCorrecta: true },
+            { id: 'c', texto: 'Consumo de verduras.', esCorrecta: false },
+            { id: 'd', texto: 'Buen rendimiento escolar.', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -190,18 +190,18 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Incluir una variedad de alimentos en la dieta',
+              texto: 'Incluir una variedad de alimentos en la dieta.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Consumir solo alimentos ultra procesados',
+              texto: 'Consumir solo alimentos ultra procesados.',
               esCorrecta: false,
             },
-            { id: 'c', texto: 'Saltar el desayuno', esCorrecta: false },
+            { id: 'c', texto: 'Saltar el desayuno.', esCorrecta: false },
             {
               id: 'd',
-              texto: 'Aumentar el consumo de refrescos',
+              texto: 'Aumentar el consumo de refrescos.',
               esCorrecta: false,
             },
           ],
@@ -214,20 +214,20 @@ export default {
           imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'No tienen impacto', esCorrecta: false },
+            { id: 'a', texto: 'No tienen impacto.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'Pueden afectar el acceso a alimentos saludables',
+              texto: 'Pueden afectar el acceso a alimentos saludables.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Solo influyen en la salud mental',
+              texto: 'Solo influyen en la salud mental.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Son irrelevantes para el bienestar físico',
+              texto: 'Son irrelevantes para el bienestar físico.',
               esCorrecta: false,
             },
           ],
@@ -240,20 +240,20 @@ export default {
           imagen: require('@/assets/actividad/img-5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Promover dietas extremas', esCorrecta: false },
+            { id: 'a', texto: 'Promover dietas extremas.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'Fomentar elecciones alimentarias saludables',
+              texto: 'Fomentar elecciones alimentarias saludables.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ignorar las necesidades individuales',
+              texto: 'Ignorar las necesidades individuales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Enfatizar el consumo de alimentos altos en azúcar',
+              texto: 'Enfatizar el consumo de alimentos altos en azúcar.',
               esCorrecta: false,
             },
           ],
