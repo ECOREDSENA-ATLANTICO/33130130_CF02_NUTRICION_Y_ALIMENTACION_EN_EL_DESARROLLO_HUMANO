@@ -263,12 +263,10 @@ export default {
     {
       referencia:
         'Fotolia. (2004). <em>Nutrition facts label hanging on a rope.</em> Vector.',
-      link: 'http://co.fotolia.com/id/64693571',
     },
     {
       referencia:
         'Fotolia. (2004). <em>Silhouette junges Mannes mit Magen-Darm-Trakt.</em> Vector.',
-      link: 'http://co.fotolia.com/id/39992078',
     },
     {
       referencia:
@@ -278,7 +276,7 @@ export default {
     },
     {
       referencia:
-        '(2013). Manual de Nutrición y Dietetica. En A. Carbajal Azcona. Marid.',
+        'Carbajal Azcona, Á. (2013). Manual de nutrición y dietética. Universidad Complutense de Madrid. ',
       link:
         'http://eprints.ucm.es/22755/1/Manual-nutricion-dietetica-CARBAJAL.pdf',
     },
