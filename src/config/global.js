@@ -263,18 +263,6 @@ export default {
     },
     {
       referencia:
-        'Fotolia. <em>Group of multiethnic hands holding world nutrition.</em>',
-    },
-    {
-      referencia:
-        'Fotolia. (2004). <em>Nutrition facts label hanging on a rope.</em> Vector.',
-    },
-    {
-      referencia:
-        'Fotolia. (2004). <em>Silhouette junges Mannes mit Magen-Darm-Trakt.</em> Vector.',
-    },
-    {
-      referencia:
         'Hernández, D. R. (20 de Enero de 2015). Medicina Preventiva Santa Fe.M. y. (1999). Tratado de Nutrición. Madrid, España: Diaz de Santos SA',
       link:
         'http://medicinapreventiva.info/generalidades/10231/conozca-el-papel-fundamental-de-las-proteinas-para-la-salud-por-linternista/ ',
