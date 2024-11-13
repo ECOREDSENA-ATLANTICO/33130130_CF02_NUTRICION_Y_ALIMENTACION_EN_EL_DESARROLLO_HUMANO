@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
+  BannerInterno.fnd-act
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
@@ -57,10 +57,10 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-xl-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4.
+          h5 Figura 6.
           span Composición de la leche materna
         figure
-          img(src='@/assets/curso/temas/tema4/img-3.png')                 
+          img(src='@/assets/curso/temas/tema4/img-3.png', alt='La composición de la leche materna, está compuesta por varios nutrientes, tales como: enzimas, calostro, secreción láctea; funciones inmunológicas y de defensa, bifidogénico, de crecimiento y de desarrollo.')                 
         figcaption Nota. SENA
 
     .row.justify-content-center.align-items-center.mb-5
@@ -100,7 +100,7 @@
       .col-lg-6.fnd--1.fnd-
         .row.justify-content-center.align-items-center
           .col-xl-6
-            p <b>Ingestas recomendadas en la mujer lactante energía:</b> Costo energético: 85 Kcal por cada 100 ml.
+            p <b>Ingestas recomendadas en la mujer lactante.</b> Costo energético: 85 Kcal por cada 100 ml.
             p <b>Proteínas:</b> ingesta extra recomendada.
             p <b>Vitaminas y minerales:</b> se recomienda aumentar cantidades de todas las vitaminas menos (K) y minerales Ca, Fe y I.
             p <b>Ejemplo:</b> Se debe suministrar más de 700 mg/día de calcio.
@@ -211,37 +211,37 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6. 
+          h5 Figura 7. 
           span Pautas alimenticias en la infancia           
         figure
-          img(src='@/assets/curso/temas/tema4/img-10.png')                 
+          img(src='@/assets/curso/temas/tema4/img-10.png', alt='Las pautas alimenticias en la infancia, son importantes por que consolidan los hábitos alimenticios, estilo de vida saludable, previenen enfermedades infantiles y enfermedades a futuro.')                 
         figcaption.mb-5 Nota. SENA
 
         .row.justify-content-center.align-items-center(data-aos="zoom-in")
           .col-xl-3.col-md-6.col-lg-6
             .crd_02.mb-5.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Alimentación diversificada.
                   
           .col-xl-3.col-md-6.col-lg-6
             .crd_02.mb-5.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Distribución y horarios regulares de comidas.
                   
           .col-xl-3.col-md-6.col-lg-6
             .crd_02.mb-5.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Selección de alimentos.
           .col-xl-3.col-md-6.col-lg-6
             .crd_02.mb-5.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Dieta variada en platos, olores, colores, sabores, texturas y consistencia.
 
@@ -285,7 +285,7 @@
           img(src='@/assets/curso/temas/tema2/img-4.svg')
       .col-auto.px-0
         h3.mb-3 Adolescencia (12- 20 años)
-    p La adolescencia se puede considerar la fase de transición de la niñez a la edad adulta. Sin embargo, los cambios físicos y psicológicos que se producen en la adolescencia pueden comenzar antes o durante la preadolescencia en edades de 9 a 12 años. La adolescencia puede ser una etapa de desorientación y descubrimiento; el período de transición puede hacer referencia a cuestiones deindependencia e identidad propia.
+    p La adolescencia se puede considerar la fase de transición de la niñez a la edad adulta. Sin embargo, los cambios físicos y psicológicos que se producen en la adolescencia pueden comenzar antes o durante la preadolescencia en edades de 9 a 12 años. La adolescencia puede ser una etapa de desorientación y descubrimiento; el período de transición puede hacer referencia a cuestiones de independencia e identidad propia.
     p.mb-4 En los últimos años se ha observado en las poblaciones más jóvenes un consumo excesivo de dietas hipercalóricas, es decir, un alto consumo de glúcidos y grasas sumado al sedentarismo característico de las ciudades, lo cual puede generar problemas de sobrepeso y obesidad.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
@@ -303,12 +303,12 @@
                 caption Fuente: SENA
                 thead
                   tr
-                    th Hombre
+                    th Hombres
                     th Mujeres
                 tbody
                   tr
-                    td Estructura genitales
-                    td Estructura genitales
+                    td Estructura de los genitales
+                    td Estructura de los genitales
                   tr
                     td Vello corporal
                     td Desarrollo de las mamas
@@ -341,31 +341,31 @@
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Adquisición de independencia.
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Desarrollo de la personalidad.
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Búsqueda de la propia identidad.
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Desarrollo intelectual.
           .col-md-6.col-lg-6
             .crd_02.mb-2.crd_02-2
                 .crd_02__icon.dan
-                  img(src="@/assets/curso/temas/tema4/img-11.svg", alt="alt")          
+                  img(src="@/assets/curso/temas/tema4/img-11.svg")          
                 .crd_02__txt
                   p.mb-1 Madurez y maduración sexual.
       .col-lg-5.col-md-8
@@ -405,7 +405,7 @@
                 td 11-14 <br> 15-19
                 td 2.200 <br> 2.200
                 td 11-14 <br> 15-19
-                td 43 br 45
+                td 43 <br> 45
               tr
                 td(colspan="5") <b>Lípidos:</b> 30 % a 35 %, debe hacer un equilibrio entre ácidos grasos saturados, monoinsaturados y poliinsaturados.
               tr
@@ -422,8 +422,8 @@
                 caption Fuente: SENA
                 thead
                   tr
-                    th Consumó diario
-                    th Consumó semanal
+                    th Consumo diario
+                    th Consumo semanal
                 tbody
                   tr
                     td Leche, yogurt y queso: 2 a 4 raciones
@@ -706,6 +706,10 @@
                 td 42%
                 td Agua extracelular
                 td 33%
+
+    .row.align-items-center(data-aos="zoom-in")
+      .col-auto.mb-4
+        h3.mb-0.fnd-2-1.fnd-2 Causas de la desnutrición en las personas de edad avanzada.
     .row.justify-content-center.align-items-center.mb-5.fnd-8-2.p-lg-5.p-md-3(data-aos="fade-right")
         .col-lg-12.fnd-8-1.p-lg-5.p-md-3
           SlyderA(tipo="b")
@@ -800,7 +804,6 @@
         figure
           img(src='@/assets/curso/temas/tema4/img-26.png') 
       .col-lg-7.col-md-11.py-4
-        h5 Causas de la desnutrición en las personas de edad avanzada
         p Pluripatología, polifarmacia y cambios ligados al envejecimiento (biológicos y psicosociales) pueden influir negativamente sobre:
         .row.pe-lg-3.justify-content-center
           .col-auto.pe-2.mt-2
@@ -925,7 +928,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img-35.png", alt="alt")
+              img(src="@/assets/curso/temas/tema4/img-35.png")
           .crd_hover_txt--body
             h5.mb-5 Consejos favorables en la ingesta de agua:
             p.mb-0 • Tomar un mínimo de 6 a 8 vasos de agua al día.
@@ -937,7 +940,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img-37.png", alt="alt")
+              img(src="@/assets/curso/temas/tema4/img-37.png")
           .crd_hover_txt--body
             h5.mb-5 Importancia del ejercicio físico.
             p.mb-0 • Mantenimiento de la composición corporal o menor tendencia al cambio.
@@ -949,7 +952,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img-32.png", alt="alt")
+              img(src="@/assets/curso/temas/tema4/img-32.png")
           .crd_hover_txt--body.mtt
             h5.mb-5 Recomendaciones actividad física en personas mayores.
             p.mb-0 • Ejercicio aeróbico (prevención y tratamiento de enfermedades crónicas): 30 minutos (diarios) en actividades como paseo a paso lento, natación, ejercicio en agua y bicicleta estática.
@@ -958,7 +961,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img-34.png", alt="alt")
+              img(src="@/assets/curso/temas/tema4/img-34.png")
           .crd_hover_txt--body
             h5.mb-5.mtt Alimentación nutricional básica.
             p.mb-0 Pautas en la elaboración de la dieta:
@@ -973,7 +976,7 @@
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/temas/tema4/img-33.png", alt="alt")
+              img(src="@/assets/curso/temas/tema4/img-33.png")
           .crd_hover_txt--body
             h5.mb-5.mtt Alimentación básica adaptada.
             p.mb-0 Preparados nutricionales destinados a adaptar la alimentación oral a las necesidades de las personas con dificultades para alimentarse correctamente con una alimentación tradicional:

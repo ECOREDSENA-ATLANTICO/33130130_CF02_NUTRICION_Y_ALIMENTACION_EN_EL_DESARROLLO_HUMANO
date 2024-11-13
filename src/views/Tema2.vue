@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
+  BannerInterno.fnd-act
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
@@ -56,7 +56,7 @@
           h5 Figura 4.
           span Importancia del deporte.
         figure
-          img(src='@/assets/curso/temas/tema2/img-5.png')                 
+          img(src='@/assets/curso/temas/tema2/img-5.png', alt='Se detalla la importancia del deporte, por que regula la circulación de la sangre, eleva la capacidad vital de la persona, mejora la respuesta cicomotriz, ayuda a combatir el estrés, fortalece la función cardiaca y optimiza el proceso de respiración.')                 
         figcaption Nota. SENA    
 
     .row.mb-4.pe-lg-3.align-items-center(data-aos="fade-left")
@@ -89,7 +89,7 @@
         .col-lg-12 
           .col-auto.pe-2
             figure
-              img(src='@/assets/curso/temas/tema2/img-8.svg')                 
+              img(src='@/assets/curso/temas/tema2/img-8.svg', alt='Se detalla cuales son los esfuerzos físicos: - Aeróbico. - Anaeróbico. - Mixto.')                 
             .tabla-b.color-acento-contenido.mb-5.tbl
               table
                 caption Nota. SENA 

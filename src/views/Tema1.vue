@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
+  BannerInterno.fnd-act
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
@@ -23,7 +23,7 @@
           h5 Figura 1. 
           span Malnutrición
         figure
-          img(src='@/assets/curso/temas/tema1/img-1.svg')
+          img(src='@/assets/curso/temas/tema1/img-1.svg', alt='La malnutrición puede ocasionar enfermedades relacionadas como sobrepeso, obesidad, desnutrición y malnutrición por nutrientes.' )
         figcaption Nota. SENA
 
     .row.justify-content-center.align-items-center.mb-5
@@ -71,7 +71,7 @@
           h5 Figura 2. 
           span Ingesta alimentaria
         figure
-          img(src='@/assets/curso/temas/tema1/img-3.svg')
+          img(src='@/assets/curso/temas/tema1/img-3.svg', alt='La ingesta alimentaria puede ser insuficiente e inadecuada, causando una absorción nutritiva inadecuada, materia prima insuficiente, lesión bioquímica y clínica.')
         figcaption Nota. SENA
 
 
@@ -349,7 +349,7 @@
           h5 Figura 3. 
           span Dieta
         figure
-          img(src='@/assets/curso/temas/tema1/img-15.svg')
+          img(src='@/assets/curso/temas/tema1/img-15.svg', alt='La dieta para los diabéticos, según la alimentación debe ser: - Grasas: 30 %, - Glúcidos: 55 %, - Proteínas: 15 %')
         figcaption.mb-5 Nota. SENA
 
         .row.justify-content-center.align-items-center(data-aos="zoom-in")

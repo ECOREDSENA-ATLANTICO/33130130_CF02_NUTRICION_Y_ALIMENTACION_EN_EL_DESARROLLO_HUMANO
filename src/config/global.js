@@ -92,7 +92,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/33130130 _CF002_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -131,13 +131,13 @@ export default {
     {
       termino: 'Cáncer',
       significado:
-        'es una enfermedad que se caracteriza por la presencia de células anormales en cuerpo, las cuales crecen y se multiplican de manera descontrolada.',
+        'es una enfermedad que se caracteriza por la presencia de células anormales en el cuerpo, las cuales crecen y se multiplican de manera descontrolada.',
     },
 
     {
       termino: 'Cerebrósidos',
       significado:
-        'es una enfermedad que se caracteriza por la presencia de células anormales en cuerpo, las cuales crecen y se multiplican de manera descontrolada.',
+        'es una enfermedad que se caracteriza por la presencia de células anormales en el cuerpo, las cuales crecen y se multiplican de manera descontrolada.',
     },
     {
       termino: 'Digestión',
@@ -230,7 +230,12 @@ export default {
     {
       termino: 'Proteoglicanos',
       significado:
-        'es una glicoproteína que está unida a un tipo especial de polisacáridos. Triglicéridos: Son grasas naturales de baja densidad, lo cual les da la característica de almacenar energía en el tejido adiposo.',
+        'es una glicoproteína que está unida a un tipo especial de polisacáridos.',
+    },
+    {
+      termino: 'Triglicéridos',
+      significado:
+        'son grasas naturales de baja densidad, lo cual les da la característica de almacenar energía en el tejido adiposo.',
     },
     {
       termino: 'Vitaminas',
@@ -241,7 +246,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Catherine Shaffer, M. (6 de Noviembre de 2016). <em>News Medical Life Sc iences.</em>',
+        'Catherine Shaffer, M. (6 de Noviembre de 2016). <em>News Medical Life Sciences.</em>',
     },
     {
       referencia: 'Centro Médico <em>Teknon.</em> (2016).',

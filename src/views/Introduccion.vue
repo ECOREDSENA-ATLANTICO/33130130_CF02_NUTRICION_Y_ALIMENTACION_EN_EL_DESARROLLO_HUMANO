@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.introduccion
-  BannerInterno
+  BannerInterno.fnd-act
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
     .titulo-principal.color-acento-contenido

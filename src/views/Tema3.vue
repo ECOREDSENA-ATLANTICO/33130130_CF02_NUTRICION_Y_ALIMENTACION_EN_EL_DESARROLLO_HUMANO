@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
+  BannerInterno.fnd-act
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
@@ -139,7 +139,7 @@
             .row.justify-content-center.align-items-center.px-1
               .col-xl-6.mb-4.mb-md-5
                 h5 Variedad	
-                p.mb-0 La pirámide de la alimentación es una figura geométrica que orienta a las personas sobre una alimentación equilibrada. En esta pirámide están expuestos los principales alimentos que deben consumirse diariamente. La pirámide de alimentos recalca algunos conceptos de suma importancia:Variedad: Uno de los inconvenientes más usuales en la alimentación es la monotonía porque siempre se come lo mismo, por eso la variedad es un factor importante del equilibrio nutricional. Hay que tener claro que ningún alimento aporta todos los nutrientes en las cantidades necesarias, por lo cual la dietadiaria debe contener los principales grupos de alimentos, hay que tener claro que ningún grupo de nutrientes es más importante que otro.
+                p.mb-0 Uno de los inconvenientes más usuales en la alimentación es la monotonía porque siempre se come lo mismo, por eso la variedad es un factor importante del equilibrio nutricional. Hay que tener claro que ningún alimento aporta todos los nutrientes en las cantidades necesarias, por lo cual la dietadiaria debe contener los principales grupos de alimentos, hay que tener claro que ningún grupo de nutrientes es más importante que otro.
               .col-xl-6.col-md-10
                 figure
                   img(src='@/assets/curso/temas/tema3/img-4.png') 
@@ -186,7 +186,7 @@
         .row
           .col-xl-6   
             h4 Pico de la pirámide
-            p En este último nivel situado en el pico de la pirámide se encuentran productos que tienen una gran cantidad de grasas como es el caso de las aceitunas, aceites vegetales como el de girasol, oliva, maíz y soya. El consumode estos productos debe ser moderado pues aportan muchas calorías y se almacenan con facilidad en el cuerpo.
+            p En este último nivel situado en el pico de la pirámide se encuentran productos que tienen una gran cantidad de grasas como es el caso de las aceitunas, aceites vegetales como el de girasol, oliva, maíz y soya. El consumo de estos productos debe ser moderado pues aportan muchas calorías y se almacenan con facilidad en el cuerpo.
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img-9.png')      
