@@ -109,7 +109,7 @@ export default {
   complementario: [
     {
       tema: 'Consejo de alimentación para prevenir enfermedades.',
-      referencia: 'Ecosistema recursos SENA [Video]. YouTube. ',
+      referencia: 'Hospital universitario del Vinalopo [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://youtu.be/1gQgdQHYYDU?si=P6Nap2toNJ5JAjO1',
     },
@@ -333,28 +333,6 @@ export default {
           cargo: 'Evaluador instruccional',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial Sabanalarga - Regional Atlántico',
-        },
-
-        {
-          nombre: 'Luis Guillermo Roberto baez',
-          cargo: 'Diseñadores gráficos',
-          centro: 'Centro Agroindustrial - Regional Quindío',
-        },
-        {
-          nombre: 'Zulma Rocio Bravo Jiménez',
-          cargo: 'Diseñadores gráficos',
-          centro: 'Centro Agroindustrial - Regional Quindío',
-        },
-
-        {
-          nombre: 'Hector Salina Castellanos',
-          cargo: 'Guionista del equipo',
-          centro: 'Centro Agroindustrial - Regional Quindío.',
-        },
-        {
-          nombre: 'Zulma Yurany Viancha Rodriguez',
-          cargo: 'Líder del del Equipo ',
-          centro: 'Centro Agroindustrial - Regional Quindío.',
         },
       ],
     },

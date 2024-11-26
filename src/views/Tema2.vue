@@ -67,7 +67,7 @@
         h3.mb-0 Determinar las necesidades Nutritivas
     .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-12.mb-4
-        p Los músculos son el motor para cualquier movimiento deportivo porque con su acción de contracción y retracción permiten la ejecución de las órdenes que el sistema nervioso les envía. Para la contracción, la célula muscular requiere de energía que se le suministra a través de los nutrientes energéticos como los carbohidratos y los lípidos. La presencia de proteínas también es fundamental por el papel estructural de la fisiología de músculo.
+        p Los músculos son el motor para cualquier movimiento deportivo porque con su acción de contracción y retracción permiten la ejecución de las órdenes que el sistema nervioso les envía. Para la contracción, la célula muscular requiere de energía que se le suministra a través de los nutrientes energéticos como los carbohidratos y los lípidos. La presencia de proteínas también es fundamental por el papel estructural de la fisiología del músculo.
         p En un principio, los requisitos energéticos de una persona que realiza deporte de manera regular se hallan en la alimentación habitual de cualquier persona, con variaciones según diferentes factores geográficos, climáticos o económicos, pero cercanos siempre a los siguientes:        
       .col-lg-10.mb-4 
         figure
@@ -78,7 +78,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-7.png') 
       .col-lg-7.px-4
-        p El gasto energético de un deportista tiene unas necesidades particulares, sin embargo, existen otras necesidades calóricas a las que se demanda por la acción del deporte. Estas pueden establecerse en unas 2500 y 3500 kcal/día y se derivan del gasto normal realizado por el cuerpo en las actividades regulares deltrabajo, el crecimiento y el desarrollo del cuerpo como la propia combustión. A estos gastos se les añaden aquellos propios de la actividad deportiva, tanto por su cantidad y su calidad en los siguientes aspectos:
+        p El gasto energético de un deportista tiene unas necesidades particulares, sin embargo, existen otras necesidades calóricas a las que se demanda por la acción del deporte. Estas pueden establecerse en unas 2500 y 3500 kcal/día y se derivan del gasto normal realizado por el cuerpo en las actividades regulares del trabajo, el crecimiento y el desarrollo del cuerpo como la propia combustión. A estos gastos se les añaden aquellos propios de la actividad deportiva, tanto por su cantidad y su calidad en los siguientes aspectos:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10
@@ -133,7 +133,7 @@
               .col-auto.pe-2.mt-2
                 img(src="@/assets/curso/temas/tema2/check.svg")
               .col.px-0
-                p.mb-0 Comer únicamente la cantidad requerida según el apetito de cada quien, alimentarse en exceso puede revocardesórdenes digestivos.
+                p.mb-0 Comer únicamente la cantidad requerida según el apetito de cada quien, alimentarse en exceso puede provocar desórdenes digestivos.
             .row.pe-lg-3.justify-content-center
               .col-auto.pe-2.mt-2
                 img(src="@/assets/curso/temas/tema2/check.svg")

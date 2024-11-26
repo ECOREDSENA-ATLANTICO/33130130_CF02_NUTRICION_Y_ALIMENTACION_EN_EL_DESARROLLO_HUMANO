@@ -72,12 +72,12 @@
               .col-auto.pe-2.mt-2
                 img(src="@/assets/curso/temas/tema1/check.svg")
               .col.px-0
-                p.mb-0 Consumir todos los grupos de alimentos de forma variada, los glúcidos en un 55% a 60% y aumentar la cantidad de acuerdo con el ingreso energético total, sin sobrepasar un 10% en consumo de azúcares simples (azúcar refinada).
+                p.mb-0 Consumir todos los grupos de alimentos de forma variada, los glúcidos en un 55 % a 60 % y aumentar la cantidad de acuerdo con el ingreso energético total, sin sobrepasar un 10 % en consumo de azúcares simples (azúcar refinada).
             .row.pe-lg-3.justify-content-center
               .col-auto.pe-2.mt-2
                 img(src="@/assets/curso/temas/tema1/check.svg")
               .col.px-0
-                p.mb-0 Se recomienda disminuir el consumo de lípidos en un 30% con respecto al ingreso energético total, también reducir el colesterol en 300 mg/día.
+                p.mb-0 Se recomienda disminuir el consumo de lípidos en un 30 % con respecto al ingreso energético total, también reducir el colesterol en 300 mg/día.
             .row.pe-lg-3.justify-content-center
               .col-auto.pe-2.mt-2
                 img(src="@/assets/curso/temas/tema1/check.svg")
@@ -165,7 +165,7 @@
         .row
           .col-xl-6
             h4 Primer nivel
-            p Los alimentos que se encuentran allí son de tipo energético tales como: cereales, arroz, pan, pasta y papas, los cuales aportan calorías al organismo; se recomienda consumir de cuatro a seis raciones al día.
+            p Los alimentos que se encuentran allí son de tipo energético, tales como: cereales, arroz, pan, pasta y papas, los cuales aportan calorías al organismo; se recomienda consumir de cuatro a seis raciones al día.
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img-8.png')            
@@ -186,7 +186,7 @@
         .row
           .col-xl-6   
             h4 Pico de la pirámide
-            p En este último nivel situado en el pico de la pirámide se encuentran productos que tienen una gran cantidad de grasas como es el caso de las aceitunas, aceites vegetales como el de girasol, oliva, maíz y soya. El consumo de estos productos debe ser moderado pues aportan muchas calorías y se almacenan con facilidad en el cuerpo.
+            p En este último nivel situado en el pico de la pirámide se encuentran productos que tienen una gran cantidad de grasas, como es el caso de las aceitunas, aceites vegetales como el de girasol, oliva, maíz y soya. El consumo de estos productos debe ser moderado, pues aportan muchas calorías y se almacenan con facilidad en el cuerpo.
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img-9.png')      

@@ -89,7 +89,7 @@
           .col-auto.mb-3
             h3.mb-0.fnd-2-1.fnd-2 Cáncer
         p Es una enfermedad caracterizada por la presencia de células anormales en el cuerpo, las cuales crecen y se multiplican de manera descontrolada. Estas células son: llamadas cancerosas o malignas, puesto que invaden los tejidos del organismo dispersándose a través del sistema sanguíneo o linfático. 
-        p Se estima que los factores alimentarios explican aproximadamente el 30% de los cánceres, lo que hace de la dieta el segundo factor después del tabaco, como causa teóricamente prevenible de cáncer. 
+        p Se estima que los factores alimentarios explican aproximadamente el 30 % de los cánceres, lo que hace de la dieta el segundo factor después del tabaco, como causa teóricamente prevenible de cáncer. 
         p Las tasas de cáncer cambian de un país a otro. Se estima que el peso corporal y la inactividad física son responsables de entre la quinta y la tercera parte de varios de los cánceres más comunes, concretamente los cánceres de mama (posmenopáusicos), colon, endometrio, riñón y esófago.
         p.mb-4 El cáncer se origina en las personas debido a múltiples causas o factores de riesgo. Estos pueden agruparse de la siguiente manera:
       .col-lg-3.col-md-6.mb-5
@@ -155,7 +155,7 @@
                 .col-auto.pe-2.img-l
                   img(src="@/assets/curso/temas/tema1/img-6.svg")
                 .col
-                  p.mb-0 La carcinogénesis es el proceso por el cual se produce el cáncer en una persona; también suele ser llamado oncogénesis. Hay diversos factores que influyen en el desarrollo de este proceso entre los cuales se destacan los factores dietéticos. La genética también juega un papel importante en la aparición de cáncer: es posible heredar genes carcinógenos u oncogenes en las células, que pueden ser activados bajos condiciones ambientales especiales, sin embargo, en la mayoría de los casos son prevenibles. Es por esto por lo que resulta de mucha importancia establecer los mecanismos que relacionan la dieta, los procesos digestivos y el cáncer. Por esta razón, se exponen los siguientes factores que influyen en el desarrollo del cáncer:
+                  p.mb-0 La carcinogénesis es el proceso por el cual se produce el cáncer en una persona; también suele ser llamado oncogénesis. Hay diversos factores que influyen en el desarrollo de este proceso, entre los cuales se destacan los factores dietéticos. La genética también juega un papel importante en la aparición de cáncer: es posible heredar genes carcinógenos u oncogenes en las células, que pueden ser activados bajos condiciones ambientales especiales, sin embargo, en la mayoría de los casos son prevenibles. Es por esto por lo que resulta de mucha importancia establecer los mecanismos que relacionan la dieta, los procesos digestivos y el cáncer. Por esta razón, se exponen los siguientes factores que influyen en el desarrollo del cáncer:
 
 
                   
@@ -183,7 +183,7 @@
                   .crd_02__icon.dan
                     img(src="@/assets/curso/temas/tema1/img-7.svg", alt="alt")          
                   .crd_02__txt
-                    p.mb-1 Estímulo a la activación de genes cancerígeno mediante los lípidos o la inhibición de la activación del cáncer por medio del consumo de vitamina A.
+                    p.mb-1 Estímulo a la activación de genes cancerígenos mediante los lípidos o la inhibición de la activación del cáncer por medio del consumo de vitamina A.
     .row.justify-content-center.align-items-center.mb-4
       .row.align-items-center(data-aos="zoom-in")
         .col-auto.mb-3
@@ -191,7 +191,7 @@
       P.mb-4 La diabetes mellitus se define como un estado de hiperglucemia crónica, resultado de una serie de factores ambientales y genéticos que con frecuencia actúa conjuntamente. La hiperglucemia puede ser debida a un déficit (absoluto o relativo) de insulina endógena o a un exceso de los factores que se oponen a su acción. Este desequilibrio conduce a una anormalidad de los metabolismos de hidratos de carbono, grasas y proteínas.
       .row.justify-content-center.align-items-center
         .col-xl-5.col-md-12.fnd-3.mb-4
-          p.mb-0 Existen dos tipos de diabetes: la primera de estas es la diabetes tipo I denominada diabetes juvenil, la cual se caracteriza porque hace que la persona sea insulinodependiente. Para hacer referencia a ésta se utiliza la sigla DMID que significa Diabetes Mellitus Insulinodependiente. La segunda corresponde a la diabetes tipo II o del adulto, la cual se caracteriza porque en un principio no es insulinodependiente y sus siglas son DMNID que significa Diabetes Mellitus No Insulinodependiente.
+          p.mb-0 Existen dos tipos de diabetes: la primera de estas es la diabetes tipo I denominada diabetes juvenil, la cual se caracteriza porque hace que la persona sea insulinodependiente. Para hacer referencia a esta se utiliza la sigla DMID que significa Diabetes Mellitus Insulinodependiente. La segunda corresponde a la diabetes tipo II o del adulto, la cual se caracteriza porque en un principio no es insulinodependiente y sus siglas son DMNID que significa Diabetes Mellitus No Insulinodependiente.
         .col-xl-3.col-md-5.mb-4
           figure
             img(src='@/assets/curso/temas/tema1/img-10.svg')
@@ -199,7 +199,7 @@
           .row.align-items-center
             .col-auto.mb-3
               img(src='@/assets/curso/temas/tema1/img-11.svg')
-          p.mb-4 Además de los dos tipos de diabetes mencionados, existen otras modalidades de diabetes entre las que se encuentran diabetes secundarias asociadas a fármacos, diabetes por intolerancia a los glúcidos, diabetes gestacional, y diabetes ocasionadas por la mala nutrición.
+          p.mb-4 Además de los dos tipos de diabetes mencionados, existen otras modalidades de diabetes entre las que se encuentran diabetes, secundarias asociadas a fármacos, diabetes por intolerancia a los glúcidos, diabetes gestacional, y diabetes ocasionadas por la mala nutrición.
 
     p.mb-4 Una persona que sufre de diabetes desarrolla frecuentemente complicaciones como la insuficiencia renal, lesiones oculares y de los nervios periféricos, así como una mayor incidencia en enfermedades coronarias, arteriopatías de las extremidades de los miembros inferiores y trombosis cerebral.
                     
@@ -216,7 +216,7 @@
         SlyderF.custom(columnas="col-lg-6 col-md-6")
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             h5.mb-3 Consumo de alimentos:
-            p.mb-0 aumentar el consumo de alimentos ricos en fibras, como las manzanas, peras, albaricoques, plátanos fresas, zanahorias, papas, coliflor, guisantes, brócoli, espinacas, garbanzo, lentejas, cereales y derivados del grano como las pasta y el pan. 
+            p.mb-0 aumentar el consumo de alimentos ricos en fibras, como las manzanas, peras, albaricoques, plátanos, fresas, zanahorias, papas, coliflor, guisantes, brócoli, espinacas, garbanzo, lentejas, cereales y derivados del grano como la pasta y el pan. 
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             h5.mb-3 Disminuir consumos:
             p.mb-0 grasas animales, evitando el consumo de la grasa visible de las carnes y cocinar con grasas animales como la manteca y la mantequilla, además se debe limitar el consumo de productos de pastelería y helados.  
@@ -225,7 +225,7 @@
             p.mb-0 aumentar el consumo de verduras y frutas frescas, puesto que estas tienen un alto potencial en la prevención del cáncer por sus contenidos de vitaminas A y C.
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             h5.mb-3 Métodos de cocción:
-            p.mb-0 utilizar métodos de cocción correctos, evitando freír los alimentos con altas temperaturas, y especialmente no utilizar el aceite de cocina varias veces, debido a que esto produce la liberación de sustancia toxicas.
+            p.mb-0 utilizar métodos de cocción correctos, evitando freír los alimentos con altas temperaturas, y especialmente no utilizar el aceite de cocina varias veces, debido a que esto produce la liberación de sustancias toxicas.
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             figure.mb-4(data-aos="zoom-in")
               img.img-tar(src="@/assets/curso/temas/tema1/img-9.svg").m-auto
@@ -233,7 +233,7 @@
             p.mb-0 Tener una dieta baja en calorías y realizar ejercicios moderados para evitar la obesidad.
           .tarjeta.tarjeta--slyder.p-4.fnd-4
             h5.mb-3 Mantener un peso estable:
-            p.mb-0 Mantener un peso (en adultos) tal que el IMC se encuentra en el intervalo 18,5 -24,9 kg/m2, y evitar ganar mas de cinco kilogramos durante la vida adulta.
+            p.mb-0 Mantener un peso (en adultos) tal que el IMC se encuentra en el intervalo 18,5 -24,9 kg/m2, y evitar ganar más de cinco kilogramos durante la vida adulta.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -280,8 +280,8 @@
                 td Educación, dieta (normalizar el peso)
               tr
                 td Prevalencia
-                td 0,5% de la población
-                td 3-4% de la población
+                td 0,5 % de la población
+                td 3-4 % de la población
 
     .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
@@ -320,20 +320,20 @@
             .col-auto.pe-2.mt-2
               img(src="@/assets/curso/temas/tema1/check.svg")
             .col.px-0
-              p.mb-0 La dieta de un diabético difiere sólo en algunos puntos de una dieta balanceada normal. Las diferencias que se presentan corresponden a la adaptación de algunas características fisiopatológicas de la diabetes y al tipo de tratamiento que la persona recibe.
+              p.mb-0 La dieta de un diabético difiere solo en algunos puntos de una dieta balanceada normal. Las diferencias que se presentan corresponden a la adaptación de algunas características fisiopatológicas de la diabetes y al tipo de tratamiento que la persona recibe.
 
       .col-lg-4.col-md-6
         figure
           img(src='@/assets/curso/temas/tema1/img-13.png')
           
 
-    p.mb-5 El equilibrio de la dieta para la diabetes radica en el control y el seguimiento de lo que se ingiere. Hoy en día no se aleja mucho de la dieta balanceada de una persona no diabética, pero si se deben mantener los siguientes niveles en la alimentación: los glúcidos deben corresponder al 55% de la dieta y dentro de estos un 15% debe estar compuesto por hidratos de carbono simples, un 30% de grasas repartiendo equitativamente la cantidad de grasas saturadas, monoinsaturadas y poliinsaturadas, y además se requiere de un 15% de proteína.
+    p.mb-5 El equilibrio de la dieta para la diabetes radica en el control y el seguimiento de lo que se ingiere. Hoy en día no se aleja mucho de la dieta balanceada de una persona no diabética, pero si se deben mantener los siguientes niveles en la alimentación: los glúcidos deben corresponder al 55 % de la dieta y dentro de estos un 15 % debe estar compuesto por hidratos de carbono simples, un 30 % de grasas repartiendo equitativamente la cantidad de grasas saturadas, monoinsaturadas y poliinsaturadas, y además se requiere de un 15 % de proteína.
     .row.justify-content-center.align-items-center.mb-5.fnd-6
       .col-lg-5.col-md-6.p-0
         figure
           img(src='@/assets/curso/temas/tema1/img-12.png')
       .col-lg-7
-        p Es muy recomendable que la dieta tenga un buen contenido de fibra. Se debe presentar una restricción moderada al consumo de colesterol y ácidos grasos saturados. De igual forma se debe restringir el consumo de alcohol.
+        p Es muy recomendable que la dieta tenga un buen contenido de fibra. Se debe presentar una restricción moderada al consumo de colesterol y ácidos grasos saturados. De igual forma, se debe restringir el consumo de alcohol.
         p El aporte de calorías y proteínas a la dieta varía según el estado fisiológico de la persona, su contextura, edad, sexo o si se encuentra en estado de embarazo. Por esto, un nutricionista debe diseñar el contenido de la dieta para cada caso específico.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
@@ -355,10 +355,10 @@
         .row.justify-content-center.align-items-center(data-aos="zoom-in")
           .col-lg-12
             .cajon.color-secundario.p-4.fnd-7
-              p.mb-0 La reparación de los hidratos de carbono corresponde a un punto de relevancia en la dieta del diabético, principalmente los hidratos de carbono simples: la glucosa, la fructosa y la galactosa; estos son de rápida absorción por lo cual pueden provocar incrementos hiperglucémicos sí se ingieren descontroladamente. Lo que se recomienda para nivelarlos, es limitar su consumo a un 15% de la dieta y en la medida de lo posible ingerirlos en forma de fruta. Por otra parte, los hidratos de carbono complejos como los polisacáridos y almidones son de lenta absorción, por lo cual, se pueden consumir en una mayor cantidad, pero sin descuidar su control.
+              p.mb-0 La reparación de los hidratos de carbono corresponde a un punto de relevancia en la dieta del diabético, principalmente los hidratos de carbono simples: la glucosa, la fructosa y la galactosa; estos son de rápida absorción por lo cual pueden provocar incrementos hiperglucémicos sí se ingieren descontroladamente. Lo que se recomienda para nivelarlos, es limitar su consumo a un 15 % de la dieta y en la medida de lo posible, ingerirlos en forma de fruta. Por otra parte, los hidratos de carbono complejos como los polisacáridos y almidones son de lenta absorción, por lo cual, se pueden consumir en una mayor cantidad, pero sin descuidar su control.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p El consumo de fibra se recomienda porque ayuda a disminuir la absorción de los glúcidos. Si se lleva una dieta rica en fibra se pueden reducir los requerimientos de insulina. Existen muchos alimentos ricos en fibra e incluso en el mercado pueden encontrarse suplementos dietarios que ayudan a alcanzar el nivel diario requerido de este componente que usualmente está alrededor de los 30 g. Es recomendable que, en la medida de lo posible, la fibra se adquiera únicamente mediante el consumo de vegetales y legumbres. Como complemento a la dieta debe realizarse un adecuado ejercicio físico, ya que éste disminuye los requisitos de insulina y mejora el control metabólico. 
+        p El consumo de fibra se recomienda porque ayuda a disminuir la absorción de los glúcidos. Si se lleva una dieta rica en fibra, se pueden reducir los requerimientos de insulina. Existen muchos alimentos ricos en fibra e incluso en el mercado pueden encontrarse suplementos dietarios que ayudan a alcanzar el nivel diario requerido de este componente, que usualmente está alrededor de los 30 g. Es recomendable que, en la medida de lo posible, la fibra se adquiera únicamente mediante el consumo de vegetales y legumbres. Como complemento a la dieta debe realizarse un adecuado ejercicio físico, ya que éste disminuye los requisitos de insulina y mejora el control metabólico. 
         p Finalmente se habla de lo que en el mercado se conoce como productos tolerados para diabéticos en los que se ha sustituido el azúcar por fructosa, edulcorantes artificiales u otros productos similares, sin embargo, la inclusión de uno de estos productos en la dieta debe mencionársele al médico de control, pues su consumo descontrolado puede modificar los niveles de glucemia e incluso producir diarrea.
       .col-lg-4.col-md-6.p-0
         figure
@@ -380,7 +380,7 @@
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
-                  p.mb-4 Restringir la ingesta de ácidos grasos saturados hasta menos del 10% de la ingesta energética diaria, y hasta menos del 7% en los grupos de alto riesgo. La cantidad y la calidad de las grasas deben calcularse teniendo cuenta la necesidad de cubrir las necesidades de energía. Ciertas fuentes de grasas saturadas, como los aceites de coco y de palma, aportan energía a bajo costo y pueden ser una importante fuente energética.      
+                  p.mb-4 Restringir la ingesta de ácidos grasos saturados hasta menos del 10 % de la ingesta energética diaria, y hasta menos del 7 % en los grupos de alto riesgo. La cantidad y la calidad de las grasas deben calcularse teniendo en cuenta la necesidad de cubrir las necesidades de energía. Ciertas fuentes de grasas saturadas, como los aceites de coco y de palma, aportan energía a bajo costo y pueden ser una importante fuente energética.      
             .col-md-8.col-lg-4
               figure
                 img.img-262(src='@/assets/curso/temas/tema1/img-17.png')
@@ -442,8 +442,8 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-22.png')
       .col-lg-8
-        p La relación entre dieta y osteoporosis parece sólo moderada, aunque tanto el calcio como la vitamina D (obtenida a partir de los alimentos o mediante síntesis en la piel por acción de la luz solar), son importantes, al menos en las poblaciones de más edad. El calcio es uno de los principales minerales formadores de hueso, de ahí que sea indispensable suministrarlo en cantidades apropiadas en todas las etapas de la vida.
-        p La leche aporta de 30 a 50 por ciento del calcio dietético consumido. La leche entera, si se consume en las cantidades que con frecuencia se recomiendan para prevenir la osteoporosis, además aumentará apreciablemente la posibilidad de niveles no saludables de consumo de grasa total, grasa saturada y energía.
+        p La relación entre dieta y osteoporosis parece solo moderada, aunque tanto el calcio como la vitamina D (obtenida a partir de los alimentos o mediante síntesis en la piel por acción de la luz solar), son importantes, al menos en las poblaciones de más edad. El calcio es uno de los principales minerales formadores de hueso, de ahí que sea indispensable suministrarlo en cantidades apropiadas en todas las etapas de la vida.
+        p La leche aporta de 30 % a 50 % del calcio dietético consumido. La leche entera, si se consume en las cantidades que con frecuencia se recomiendan para prevenir la osteoporosis, además aumentará apreciablemente la posibilidad de niveles no saludables de consumo de grasa total, grasa saturada y energía.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -516,14 +516,14 @@
 
     .row.justify-content-center.align-items-center.mb-5.fnd-3
       .col-lg-8
-        p Sin embargo, también se presentan casos en los que hay personas que sufren de obesidad aun cuando su consumo de alimento es mínimo; esta situación se origina debido a factores genéticos. En estos casos la forma de controlar la obesidad es diferente a las demás, puesto que se puede recurrir a intervenciones quirúrgicas como el baipás gástrico.
+        p Sin embargo, también se presentan casos en los que hay personas que sufren de obesidad aun cuando su consumo de alimento es mínimo; esta situación se origina debido a factores genéticos. En estos casos, la forma de controlar la obesidad es diferente a las demás, puesto que se puede recurrir a intervenciones quirúrgicas como el baipás gástrico.
 
         p Existen cuatro grados de obesidad que se determinan dependiendo de un factor matemático llamado Índice de Masa Corporal (IMC) y la forma de calcularlo es usando la siguiente fórmula:
       .col-md-8.col-lg-4
         figure
-          img(src='@/assets/curso/temas/tema1/img-28.svg')
+          img(src='@/assets/curso/temas/tema1/img-28-.svg')
 
-    p El sobrepeso se define por un IMC (índice de masa corporal) igual o superior a 25, y la obesidad por un IMC igual o superior a 30. Se debe tener en cuenta que el peso debe darse en kilogramos y la estatura en metros. Según está valoración se obtiene la siguiente tabla que muestra los diferentes niveles de obesidad:
+    p El sobrepeso se define por un IMC (índice de masa corporal) igual o superior a 25, y la obesidad por un IMC igual o superior a 30. Se debe tener en cuenta que el peso debe darse en kilogramos y la estatura en metros. Según esta valoración se obtiene la siguiente tabla que muestra los diferentes niveles de obesidad:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -562,7 +562,7 @@
 
                 
         .cajon.color-primario.p-4.fnd-6.mb-5
-          p.mb-0 <b>Recomendaciones y tratamiento:</b> Dependiendo del nivel de obesidad que se sufre, las características del tratamiento varían; también influye si se trata de un hombre o de una mujer. A manera general, se puede decir que una excelente forma de combatir la obesidad es mediante la combinación de una dieta adecuada y la realización de ejercicio físico; la dieta debe estar orientada a la disminución de las calorías ingeridas cada día. El porcentaje de reducción que se establezca depende de Índice de Masa Corporal que se posea. A continuación, se relaciona una tabla con estos valores: 
+          p.mb-0 <b>Recomendaciones y tratamiento:</b> Dependiendo del nivel de obesidad que se sufre, las características del tratamiento varían; también influye si se trata de un hombre o de una mujer. A manera general, se puede decir que una excelente forma de combatir la obesidad es mediante la combinación de una dieta adecuada y la realización de ejercicio físico; la dieta debe estar orientada a la disminución de las calorías ingeridas cada día. El porcentaje de reducción que se establezca depende del Índice de Masa Corporal que se posea. A continuación, se relaciona una tabla con estos valores: 
 
         .titulo-sexto.color-acento-contenido
           h5 Tabla 5. 
@@ -577,22 +577,22 @@
             tbody
               tr
                 td 25 – 28
-                td 50%
+                td 50 %
               tr
                 td 28 – 32
-                td 60%
+                td 60 %
               tr
                 td 32 – 36
-                td 70%
+                td 70 %
               tr
                 td 36 – 40
-                td 75%
+                td 75 %
               tr
                 td 40 – 44
-                td 80%
+                td 80 %
               tr
                 td > 44
-                td 85%
+                td 85 %
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-4
@@ -644,7 +644,7 @@
     .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-4
         h3.mb-0.fnd-2-1.fnd-2 Diarrea
-    p.mb-3 La diarrea se define como la evacuación anormal de heces de poca consistencia. Frecuentemente es una alteración simple del organismo, pero es importante no pasarla por alto puesto que puede ser síntoma de una enfermedad más grave. Según sus características se pueden clasificar de diferentes formas:
+    p.mb-3 La diarrea se define como la evacuación anormal de heces de poca consistencia. Frecuentemente, es una alteración simple del organismo, pero es importante no pasarla por alto, puesto que puede ser síntoma de una enfermedad más grave. Según sus características, se pueden clasificar de diferentes formas:
 
     .row.justify-content-center.d-flex.mb-5
       .col-lg-6.fnd--1.fnd-
@@ -657,7 +657,7 @@
       .col-lg-6.fnd--2.fnd-
         .row.justify-content-center.d-flex
           .col-lg-6
-            p <b>Diarrea secretora:</b> Cuando la causa que origina la diarrea es un agente capaz de provocar estímulo en la mucosa intestinal para que secrete una mayor cantidad de agua a la normal y adicione electrolitos. Distintos factores pueden ocasionar este tipo de diarrea, por ejemplo, los de origen endógeno o interno como las tumoraciones del sistema endocrino y los de origen exógeno o externo que por lo general son de carácter infeccioso. La diarrea secretora suele ser la que provoca la mayor deshidratación.
+            p <b>Diarrea secretora:</b> Cuando la causa que origina la diarrea es un agente capaz de provocar estímulo en la mucosa intestinal para que secrete una mayor cantidad de agua a la normal y adicione electrolitos. Distintos factores pueden ocasionar este tipo de diarrea, por ejemplo, los de origen endógeno o interno como las tumoraciones del sistema endocrino y los de origen exógeno o externo, que por lo general, son de carácter infeccioso. La diarrea secretora suele ser la que provoca la mayor deshidratación.
           .col-lg-6
             figure
               img.img-298(src='@/assets/curso/temas/tema1/img-31.png')
@@ -686,7 +686,7 @@
         .row.justify-content-center.align-items-center.mb-5.fnd-9
           .col-lg-8.ps-lg-5.py-4 
             p <b>Prevención y tratamiento:</b> En muchas ocasiones las enfermedades se eliminan por sí mismas; generalmente en las gastroenteritis por toxinfección, la normalidad del tracto intestinal se regula en los primeros dos días, con o sin tratamiento.
-            p Sin embargo, muchas veces se requiere de una intervención para frenar los síntomas causados por la enfermedad. Para esto se emplean diversos tratamientos, pero, a manera general, todo tratamiento debe buscar cumplir los siguientes objetivos: evitar la deshidratación dando un adecuado soporte de líquidos, y realizar una dieta astringente, es decir que tenga efectos cicatrizantes y antiinflamatorios.
+            p Sin embargo, muchas veces se requiere de una intervención para frenar los síntomas causados por la enfermedad. Para esto se emplean diversos tratamientos, pero, a manera general, todo tratamiento debe buscar cumplir los siguientes objetivos: evitar la deshidratación, dando un adecuado soporte de líquidos, y realizar una dieta astringente, es decir, que tenga efectos cicatrizantes y antiinflamatorios.
           .col-lg-4.col-md-6.p-0
             figure
               img(src='@/assets/curso/temas/tema1/img-36.svg')
@@ -695,7 +695,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-37.png')    
           .col-lg-8.py-4          
-            p El uso de antibióticos debe estar determinado únicamente por un médico y por lo general se emplean en casos complejos donde se presentan síntomas como la fiebre elevada y persistente. La utilización de medicamentes antidiarreicos debe reservarse para casos en donde la cantidad de evacuaciones es elevada.
+            p El uso de antibióticos debe estar determinado únicamente por un médico y por lo general se emplean en casos complejos donde se presentan síntomas como la fiebre elevada y persistente. La utilización de medicamentos antidiarreicos debe reservarse para casos en donde la cantidad de evacuaciones es elevada.
             p Siempre se aconseja que se acuda a supervisión médica cuando se está sufriendo de una diarrea, sin embargo, en algunos casos el asistir a un médico es una determinación obligatoria; por ejemplo en los casos de los niños menores de tres años, en las personas mayores a 65 años, en las mujeres embarazadas, en los pacientes con historial médico de enfermedades crónicas como el asma, úlcera y las enfermedades cardíacas; también si la diarrea es persistente y presenta un número elevado de evacuaciones con presencia de vómito y mal estado general.
     .row.align-items-center(data-aos="zoom-in")
       .col-auto.mb-3
@@ -730,18 +730,18 @@
           .row.justify-content-center.align-items-center
             .col-md-6.mb-4.mb-md-0
               h5 Estreñimiento por otras causas 
-              p Puede darse por diversos factores entre los cuales se encuentran causas emocionales, dietas incorrectas en donde no se incluye la cantidad adecuada de fibra o la ingesta de agua es insuficiente. También se puede dar por tener malos hábitos alimenticios como, por ejemplo: comer rápido, llevar una vida sedentaria y el uso excesivo de laxantes.
+              p Puede darse por diversos factores, entre los cuales se encuentran causas emocionales, dietas incorrectas en donde no se incluye la cantidad adecuada de fibra o la ingesta de agua es insuficiente. También se puede dar por tener malos hábitos alimenticios como, por ejemplo: comer rápido, llevar una vida sedentaria y el uso excesivo de laxantes.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema1/img-41.png') 
 
-    p.mb-5 <b>Prevención y recomendaciones:</b> Para evitar que se sufra de estreñimiento es recomendable tener un horario fijo para la defecación, hay que dedicar unos minutos diariamente a esta tarea. Más que tener una hora especifica se trata de generar un ritmo de costumbre, por ejemplo, al momento de levantarse o después de ingerir el desayuno. Comer despacio, reposar la comida durante unos 15 o 20 minutos y el ejercicio físico disminuye los riesgos de sufrir estreñimiento.
+    p.mb-5 <b>Prevención y recomendaciones:</b> Para evitar que se sufra de estreñimiento, es recomendable tener un horario fijo para la defecación, hay que dedicar unos minutos diariamente a esta tarea. Más que tener una hora específica se trata de generar un ritmo de costumbre, por ejemplo, al momento de levantarse o después de ingerir el desayuno. Comer despacio, reposar la comida durante unos 15 o 20 minutos y el ejercicio físico disminuye los riesgos de sufrir estreñimiento.
     
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .nutrition-box.nn
           .cont
-            p.mb-0 Si ya está sufriendo de estreñimiento es recomendable evitar el tratamiento con fármacos, a no ser que sea completamente necesario; son preferibles los supositorios de glicerina o las cánulas. Adicionalmente, la evacuación puede inducirse tomando un vaso de agua fría mientras se está en ayunas, tomando una cucharada de aceite de oliva virgen, tomando mermeladas o frutas laxantes como la ciruela. El tránsito intestinal se puede acelerar mediante el consumo de agua abundante entre comidas y por la ingesta de productos ricos en fibra.
+            p.mb-0 Si ya está sufriendo de estreñimiento, es recomendable evitar el tratamiento con fármacos, a no ser que sea completamente necesario; son preferibles los supositorios de glicerina o las cánulas. Adicionalmente, la evacuación puede inducirse tomando un vaso de agua fría mientras se está en ayunas, tomando una cucharada de aceite de oliva virgen, tomando mermeladas o frutas laxantes como la ciruela. El tránsito intestinal se puede acelerar mediante el consumo de agua abundante entre comidas y por la ingesta de productos ricos en fibra.
           img.pepper(src="@/assets/curso/temas/tema1/img-42.png")      
 
 

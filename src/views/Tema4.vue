@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img-1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En esta parte del componente se describe la importancia de una dieta equilibrada y las necesidades nutricionales en las diferentes etapas de la vida. Además, se muestra la pirámide de los alimentos que es la base nutricional del ser humano. El material de estudio permite comprender los aspectos relacionados con la actividad de aprendizaje a desarrollar, esto con el fin de que el aprendiz pueda realizar las actividades de la mejor manera.
+        p.mb-0 En esta parte del componente se describe la importancia de una dieta equilibrada y las necesidades nutricionales en las diferentes etapas de la vida. Además, se muestra la pirámide de los alimentos, que es la base nutricional del ser humano. El material de estudio permite comprender los aspectos relacionados con la actividad de aprendizaje a desarrollar, esto con el fin de que el aprendiz pueda realizar las actividades de la mejor manera.
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-10        
         .row.justify-content-center.align-items-center                  
@@ -151,7 +151,7 @@
         .row.justify-content-center.d-flex
           .col-xl-6
             p.mb-0 <b>Desarrollo físico</b>  
-            p Los niños continúan ganando peso y altura, pero más lentamente de lo que lo hicieron durante los primeros dos años de vida. El desarrollo del cerebro también está en marcha; en el momento enque un niño llega a la edad de tres años, el cerebro habrá alcanzado aproximadamente el 75% del peso que tendrá en la edad adulta. En este período realizan actividades como saltar y andar en puntillas, además se presenta un desarrollo cognitivo y social.
+            p Los niños continúan ganando peso y altura, pero más lentamente de lo que lo hicieron durante los primeros dos años de vida. El desarrollo del cerebro también está en marcha; en el momento en que un niño llega a la edad de tres años, el cerebro habrá alcanzado aproximadamente el 75 % del peso que tendrá en la edad adulta. En este período realizan actividades como saltar y andar en puntillas, además se presenta un desarrollo cognitivo y social.
 
           .col-xl-6
             figure
@@ -180,7 +180,13 @@
           .col-xl-6
             figure
               img.img-298(src='@/assets/curso/temas/tema4/img-7.png')
-          
+    .row.mb-4.pe-lg-3.align-items-center(data-aos="fade-left")
+      .col-auto.pe-2
+        figure
+          img(src='@/assets/curso/temas/tema2/img-4.svg')
+      .col-auto.px-0
+        h3.mb-0 Recomendaciones nutricionales en la infancia.           
+
     .row.justify-content-center.align-items-center.mb-3.p-4(data-aos="zoom-in")
       .col-lg-4.col-md-6.mb-4
         figure(data-aos="zoom-in")
@@ -286,7 +292,7 @@
       .col-auto.px-0
         h3.mb-3 Adolescencia (12- 20 años)
     p La adolescencia se puede considerar la fase de transición de la niñez a la edad adulta. Sin embargo, los cambios físicos y psicológicos que se producen en la adolescencia pueden comenzar antes o durante la preadolescencia en edades de 9 a 12 años. La adolescencia puede ser una etapa de desorientación y descubrimiento; el período de transición puede hacer referencia a cuestiones de independencia e identidad propia.
-    p.mb-4 En los últimos años se ha observado en las poblaciones más jóvenes un consumo excesivo de dietas hipercalóricas, es decir, un alto consumo de glúcidos y grasas sumado al sedentarismo característico de las ciudades, lo cual puede generar problemas de sobrepeso y obesidad.
+    p.mb-4 En los últimos años, se ha observado en las poblaciones más jóvenes un consumo excesivo de dietas hipercalóricas, es decir, un alto consumo de glúcidos y grasas sumado al sedentarismo característico de las ciudades, lo cual puede generar problemas de sobrepeso y obesidad.
 
     .row.justify-content-center.align-items-center(data-aos="fade-right")
       .col-xl-10
@@ -498,7 +504,7 @@
         h3.mb-3 Adultez (30 - 60 años).
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
-        p A medida que el ser humano va pasando las diferentes etapas de la vida aumenta la posibilidad de padecer enfermedades de tipo crónico, por eso es necesaria una alimentación sana y que cubra todos los requerimientos nutricionales de la edad. La actividad física también es importante pues ayuda a mantener el cuerpo saludable. 
+        p A medida que el ser humano va pasando las diferentes etapas de la vida aumenta la posibilidad de padecer enfermedades de tipo crónico, por eso es necesaria una alimentación sana y que cubra todos los requerimientos nutricionales de la edad. La actividad física también es importante, pues ayuda a mantener el cuerpo saludable. 
         p <b>Cambios físicos y metabólicos:</b> Se caracteriza por el cierre de la glándula epífisis y la detención del crecimiento, en esta etapa se suele producir la integración social en circunstancias normales. Las mujeres pierden la capacidad reproductora entre los 45 y 50 años y el hombre va disminuyendo, aunque no de manera drástica.
       .col-md-8.col-lg-3
         figure
@@ -521,7 +527,7 @@
             p.mb-0.text-center La dieta se debe variar al máximo, donde se incluyan todos los grupos nutricionales como glúcidos, proteínas, lípidos, vitaminas y minerales.
           .tarjeta.tarjeta--slyder.p-4.fnd-4-
             h1 03
-            p.mb-0.text-center Es importante en la edad adulta comer a horarios establecidos y no saltarse ninguna comida, haciendo énfasis en el desayuno pues es la comida más importante del día, ya que cubre el 25% de la energía total requerida.
+            p.mb-0.text-center Es importante en la edad adulta comer a horarios establecidos y no saltarse ninguna comida, haciendo énfasis en el desayuno, pues es la comida más importante del día, ya que cubre el 25% de la energía total requerida.
           .tarjeta.tarjeta--slyder.p-4.fnd-4-
             h1 04
             p.mb-0.text-center Es importante que cuando se alimente se coma despacio y se mastique bien, evitando distracciones.
@@ -530,7 +536,7 @@
             p.mb-0.text-center Evite el consumo de calorías en exceso, consuma las calorías según el gasto energético total.
           .tarjeta.tarjeta--slyder.p-4.fnd-4-
             h1 06
-            p.mb-0.text-center Tomar en pocas cantidades hamburgueses, pizzas, repostería, entre otros. 
+            p.mb-0.text-center Tomar en pocas cantidades hamburguesas, pizzas, repostería, entre otros. 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -575,7 +581,7 @@
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
-                  p.mb-0 Limitar el consumo de azúcares libres a menos del 10% de la ingesta calórica total (2, 5), que equivale a 50 gramos (o unas 12 cucharaditas rasas) en el caso de una persona con un peso saludable que consuma aproximadamente 2.000 calorías al día, si bien para obtener mayores beneficios, se recomienda idealmente reducir su consumo a menos del 5% de la ingesta calórica total cinco (5). Son los fabricantes, los cocineros o el propio consumidor quienes añaden a los alimentos la mayor parte de los azúcares libres. El azúcar libre también puede estar presente en el azúcar natural de la miel, los jarabes, y los zumos concentrados de frutas.
+                  p.mb-0 Limitar el consumo de azúcares libres a menos del 10 % de la ingesta calórica total (2, 5), que equivale a 50 gramos (o unas 12 cucharaditas rasas) en el caso de una persona con un peso saludable que consuma aproximadamente 2.000 calorías al día, si bien para obtener mayores beneficios, se recomienda idealmente reducir su consumo a menos del 5 % de la ingesta calórica total cinco (5). Son los fabricantes, los cocineros o el propio consumidor quienes añaden a los alimentos la mayor parte de los azúcares libres. El azúcar libre también puede estar presente en el azúcar natural de la miel, los jarabes, y los zumos concentrados de frutas.
 
             .col-xl-3.col-md-4
               figure
@@ -588,7 +594,7 @@
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
                 .col.px-0
-                  p.mb-0 Disminuir el consumo de grasa (1, 2, 3) al 30% de la ingesta calórica diaria. Las grasas no saturadas (presentes, por ejemplo, en el aceite de pescado, los aguacates, los frutos secos, o el aceite de girasol, canola y oliva) son preferibles a las grasas saturadas (presentes, por ejemplo, en la carne grasa, la mantequilla, el aceite de palma y de coco, la nata, el queso, el ghee y la manteca de cerdo) (3). Las grasas industriales de tipo trans (presentes en los alimentos procesados, la comida rápida, los aperitivos, los alimentos fritos, las pizzas congeladas, los pasteles, las galletas, las margarinas y las pastas para untar) no forman parte de una dieta sana.            
+                  p.mb-0 Disminuir el consumo de grasa (1, 2, 3) al 30 % de la ingesta calórica diaria. Las grasas no saturadas (presentes, por ejemplo, en el aceite de pescado, los aguacates, los frutos secos, o el aceite de girasol, canola y oliva) son preferibles a las grasas saturadas (presentes, por ejemplo, en la carne grasa, la mantequilla, el aceite de palma y de coco, la nata, el queso, el ghee y la manteca de cerdo) (3). Las grasas industriales de tipo trans (presentes en los alimentos procesados, la comida rápida, los aperitivos, los alimentos fritos, las pizzas congeladas, los pasteles, las galletas, las margarinas y las pastas para untar) no forman parte de una dieta sana.            
               .row.pe-lg-3.justify-content-center
                 .col-auto.pe-2.mt-2
                   img(src="@/assets/curso/temas/tema1/check.svg")
@@ -678,7 +684,7 @@
         h3.mb-3 Alimentación en la vejez (60 años en adelante)
     p Cuando se envejece hay una serie de transformaciones físicas, metabólicas, mentales y funcionales, las cuales influyen en el comportamiento y la disminución de la capacidad de adaptación a los cambios del entorno, lo que genera un aumento de la vulnerabilidad y de la fragilidad. Este proceso es continuo e inevitable.
 
-    p Envejecer no es una enfermedad sino un cambio a lo largo de la vida. En general, se considera que se inicia al finalizar la fase de crecimiento y madurez de los individuos, entonces se considera anciano a toda persona mayor de 65 años que es la edad de jubilación en la mayoría de los países.
+    p Envejecer no es una enfermedad, sino un cambio a lo largo de la vida. En general, se considera que se inicia al finalizar la fase de crecimiento y madurez de los individuos, entonces se considera anciano a toda persona mayor de 65 años, que es la edad de jubilación en la mayoría de los países.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -727,7 +733,7 @@
                 .row.pe-lg-3.justify-content-center
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
-                  .col.px-0 Perdida de la masa ósea.
+                  .col.px-0 Pérdida de la masa ósea.
                 .row.pe-lg-3.justify-content-center
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
@@ -746,11 +752,11 @@
                 .row.pe-lg-3.justify-content-center
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
-                  .col.px-0 Cavidad orofaríngea: reducción de: Piezas dentales (atención prótesis), esmalte dentario flujo salival, disminución en la amilasa salival, dificultad de la deglutacion (disfagia), reducción de las papilas gustativas.
+                  .col.px-0 Cavidad orofaríngea: reducción de: Piezas dentales (atención prótesis), esmalte dentario, flujo salival, disminución en la amilasa salival, dificultad de la deglutacion (disfagia), reducción de las papilas gustativas.
                 .row.pe-lg-3.justify-content-center
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
-                  .col.px-0 Estomago: digestión mas lenta y atrofia de la mucosa gástrica.
+                  .col.px-0 Estómago: digestión mas lenta y atrofia de la mucosa gástrica.
                 .row.pe-lg-3.justify-content-center
                   .col-auto.pe-2.mt-2
                     img(src="@/assets/curso/temas/tema1/check.svg")
@@ -873,18 +879,18 @@
             figure.mb-4(data-aos="zoom-in")
               img.img-tar1(src="@/assets/curso/temas/tema4/img-28.svg")
             h5.mb-3 Energía.	
-            p.mb-0 Las necesidades energéticas disminuyen por lo que es importante mantener un peso ideal.
+            p.mb-0 Las necesidades energéticas disminuyen, por lo que es importante mantener un peso ideal.
           .tarjeta.tarjeta--slyder.p-4.fnd-44
             h5.mb-3 Proteínas.	
             p.mb-0 • Masa magra disminuida respecto al adulto joven.
-            p.mb-0 • Renovación de proteínas en un 20% a 30% menor que en la edad adulta.
+            p.mb-0 • Renovación de proteínas en un 20 % a 30 % menor que en la edad adulta.
             p.mb-0 • Relativa mala absorción de aminoácidos (menor asimilación proteica).
             p.mb-0 • Reserva disminuida de aminoácidos para síntesis proteica.
           .tarjeta.tarjeta--slyder.p-4.fnd-44
             figure.mb-4(data-aos="zoom-in")
               img.img-tar1(src="@/assets/curso/temas/tema4/img-29.svg")
             h5.mb-3 Glúcidos.	
-            p.mb-0 • 5% a 65% del valor energético total (VET).
+            p.mb-0 • 5 % a 65 % del valor energético total (VET).
             p.mb-0 • Ingesta dietética mínima de 130 g/día.
             p.mb-0 • Restricción de azúcares simples.
             p.mb-0 • Vigilar intolerancia a la lactosa.
@@ -944,7 +950,7 @@
           .crd_hover_txt--body
             h5.mb-5 Importancia del ejercicio físico.
             p.mb-0 • Mantenimiento de la composición corporal o menor tendencia al cambio.
-            p.mb-0 • Mejoramiento de la capacidad anabólica general y de las capacidades funcionales circulatorias y respiratorias.
+            p.mb-0 • Mejoramiento de la capacidad anabólica general y de las capacidades funcionales, circulatorias y respiratorias.
             p.mb-0 • Mejoramiento de la función óseo-muscular.
             p.mb-0 • Disminución de la probabilidad de deficiencia vitamínica y de minerales.
             p.mb-0 • Distracción y ocupación de tiempo libre, además mejora el estado de ánimo.
@@ -969,7 +975,7 @@
             p.mb-0 • La energía (volumen y densidad), se debe repetir las comidas que proporcionan este tipo de nutrientes.
             p.mb-0 • La dieta debe ser individualizada.
             p.mb-0 • Comidas sencillas y de fácil preparación.
-            p.mb-0 • En casos de falta de apetito se deben concentrar los platos.
+            p.mb-0 • En casos de falta de apetito, se deben concentrar los platos.
             p.mb-0 • Se pueden utilizar todas las técnicas culinarias.
             p.mb-0 • Resaltar la importancia de la hidratación.
       .col-xl-4.col-lg-6.col-md-9.col-11.mb-4
