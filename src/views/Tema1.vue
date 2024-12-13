@@ -199,7 +199,7 @@
           .row.align-items-center
             .col-auto.mb-3
               img(src='@/assets/curso/temas/tema1/img-11.svg')
-          p.mb-4 Además de los dos tipos de diabetes mencionados, existen otras modalidades de diabetes entre las que se encuentran diabetes, secundarias asociadas a fármacos, diabetes por intolerancia a los glúcidos, diabetes gestacional, y diabetes ocasionadas por la mala nutrición.
+          p.mb-4 Además de los dos tipos de diabetes mencionados, existen otras modalidades de diabetes, entre las que se encuentran diabetes, secundarias asociadas a fármacos, diabetes por intolerancia a los glúcidos, diabetes gestacional, y diabetes ocasionadas por la mala nutrición.
 
     p.mb-4 Una persona que sufre de diabetes desarrolla frecuentemente complicaciones como la insuficiencia renal, lesiones oculares y de los nervios periféricos, así como una mayor incidencia en enfermedades coronarias, arteriopatías de las extremidades de los miembros inferiores y trombosis cerebral.
                     
@@ -743,19 +743,6 @@
           .cont
             p.mb-0 Si ya está sufriendo de estreñimiento, es recomendable evitar el tratamiento con fármacos, a no ser que sea completamente necesario; son preferibles los supositorios de glicerina o las cánulas. Adicionalmente, la evacuación puede inducirse tomando un vaso de agua fría mientras se está en ayunas, tomando una cucharada de aceite de oliva virgen, tomando mermeladas o frutas laxantes como la ciruela. El tránsito intestinal se puede acelerar mediante el consumo de agua abundante entre comidas y por la ingesta de productos ricos en fibra.
           img.pepper(src="@/assets/curso/temas/tema1/img-42.png")      
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
